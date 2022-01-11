@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by Dan Abramov. I explain with words and code.]]></description><link>https://overreacted.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 10 Jan 2022 22:32:04 GMT</lastBuildDate><item><title><![CDATA[npm audit: Broken by Design]]></title><description><![CDATA[Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)]]></description><link>https://overreacted.io/npm-audit-broken-by-design/</link><guid isPermaLink="false">https://overreacted.io/npm-audit-broken-by-design/</guid><pubDate>Wed, 07 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by José Neto. Electrical Engineer]]></description><link>https://josegneto.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Jan 2022 17:06:32 GMT</lastBuildDate><item><title><![CDATA[Line Following]]></title><description><![CDATA[Line Following Differential Robot in Webots]]></description><link>https://josegneto.github.io/blog/line-following/</link><guid isPermaLink="false">https://josegneto.github.io/blog/line-following/</guid><pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
+&lt;p&gt;So I guess I’ll say it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The way &lt;code&gt;npm audit&lt;/code&gt; works is broken. Its rollout as a default after every &lt;code&gt;npm install&lt;/code&gt; was rushed, inconsiderate, and inadequate for the front-end tooling.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have you heard the story about &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Boy_Who_Cried_Wolf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the boy who cried wolf?&lt;/a&gt; Spoiler alert: the wolf eats the sheep. If we don’t want our sheep to be eaten, we need better tools.&lt;/p&gt;
+&lt;p&gt;As of today, &lt;code&gt;npm audit&lt;/code&gt; is a stain on the entire npm ecosystem. The best time to fix it was before rolling it out as a default. The next best time to fix it is now.&lt;/p&gt;
+&lt;p&gt;In this post, I will briefly outline how it works, why it’s broken, and what changes I’m hoping to see.&lt;/p&gt;
+                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/line-following/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
+              </content:encoded></item><item><title><![CDATA[npm audit: Broken by Design]]></title><description><![CDATA[Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)]]></description><link>https://josegneto.github.io/blog/npm-audit-broken-by-design/</link><guid isPermaLink="false">https://josegneto.github.io/blog/npm-audit-broken-by-design/</guid><pubDate>Wed, 07 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
 &lt;p&gt;So I guess I’ll say it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The way &lt;code&gt;npm audit&lt;/code&gt; works is broken. Its rollout as a default after every &lt;code&gt;npm install&lt;/code&gt; was rushed, inconsiderate, and inadequate for the front-end tooling.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Have you heard the story about &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Boy_Who_Cried_Wolf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the boy who cried wolf?&lt;/a&gt; Spoiler alert: the wolf eats the sheep. If we don’t want our sheep to be eaten, we need better tools.&lt;/p&gt;
@@ -94,7 +101,7 @@ To address all issues (including breaking changes), run:
 &lt;p&gt;Apparently, &lt;code&gt;browserslist&lt;/code&gt; is vulnerable. What’s that and how is it used? Create React App generates CSS files optimized for the browsers you target. For example, you can say you only target modern browsers in your &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
 &lt;div
               class=&quot;gatsby-code-button-container&quot;
-              data-toaster-id=&quot;88285470659211150000&quot;
+              data-toaster-id=&quot;44052109199888140000&quot;
               data-toaster-class=&quot;gatsby-code-button-toaster&quot;
               data-toaster-text-class=&quot;gatsby-code-button-toaster-text&quot;
               data-toaster-text=&quot;Copied to clipboard&quot;
@@ -116,7 +123,7 @@ function ExpensiveTree() {
     // Artificial delay -- do nothing for 100ms
   }
   return &lt;p&gt;I am a very slow component tree.&lt;/p&gt;;
-}`, `88285470659211150000`)&quot;
+}`, `44052109199888140000`)&quot;
             &gt;
               &lt;div
                 class=&quot;gatsby-code-button&quot;
@@ -272,5 +279,5 @@ function ExpensiveTree() {
 &lt;p&gt;In the meantime, I am planning to close all GitHub issues from &lt;code&gt;npm audit&lt;/code&gt; that I see going forward that don’t correspond to a &lt;em&gt;real&lt;/em&gt; vulnerability that can affect the project. I invite other maintainers to adopt the same policy. This will create frustration for our users, but the core of the issue is with npm. I am done with this security theater. Node.js/npm have all the power to fix the problem. I am in contact with them, and I hope to see this problem prioritized.&lt;/p&gt;
 &lt;p&gt;Today, &lt;code&gt;npm audit&lt;/code&gt; is broken by design.&lt;/p&gt;
 &lt;p&gt;Beginners, experienced developers, maintainers, security departments, and, most importantly — our users — deserve better.&lt;/p&gt;
-                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://overreacted.io/npm-audit-broken-by-design/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
+                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/npm-audit-broken-by-design/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
               </content:encoded></item></channel></rss>
