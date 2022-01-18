@@ -1,5 +1,5 @@
 import { Link, graphql } from 'gatsby';
-import { formatPostDate, formatReadingTime } from '../utils/helpers';
+import { formatPostDate, formatReadingTime, formatCategories, checkIfSeparation} from '../utils/helpers';
 
 import Bio from '../components/Bio';
 import Footer from '../components/Footer';
@@ -9,6 +9,7 @@ import React from 'react';
 import SEO from '../components/SEO';
 import get from 'lodash/get';
 import { rhythm } from '../utils/typography';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class BlogIndexTemplate extends React.Component {
   render() {
@@ -60,7 +61,11 @@ class BlogIndexTemplate extends React.Component {
                   </h3>
                   <small>
                     {formatPostDate(node.frontmatter.date, langKey)}
-                    {` • ${formatReadingTime(node.timeToRead)}`}
+                    <div class="categories">
+                    {formatCategories(node.frontmatter.categories)}
+                    {checkIfSeparation(node.frontmatter.categories,node.frontmatter.languages)}
+                    {formatCategories(node.frontmatter.languages)}
+                    </div>
                   </small>
                 </header>
                 <p
@@ -100,6 +105,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            categories
+            languages
             spoiler
           }
         }

@@ -23,3 +23,27 @@ export function formatPostDate(date, lang) {
   ].filter(Boolean);
   return date.toLocaleDateString(...args);
 }
+
+export function formatCategories(categories) {
+  if (categories != null){
+    const arraynew = [];
+    let text = "";
+    for (let i = 0; i < Object.keys(categories).length; i++) {
+      text = categories[i];
+      if (i > 0){
+        text = ", " + categories[i];
+      }
+      arraynew[i] = text;
+    }
+    return arraynew;
+  }
+  return categories;
+
+}
+
+export function checkIfSeparation(categories, languages) {
+  if (categories != null && languages != null){
+      return " | "
+    }
+  return "";
+}

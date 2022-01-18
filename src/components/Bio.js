@@ -1,6 +1,7 @@
 import React from 'react';
 import profilePic from '../assets/profile-pic.jpg';
 import { rhythm } from '../utils/typography';
+import { FaFastForward } from 'react-icons/fa';
 
 class Bio extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Dan Abramov`}
+          alt={`José Neto`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -24,8 +25,25 @@ class Bio extends React.Component {
         />
         <p style={{ maxWidth: 310 }}>
           Personal blog by{' '}
-          <a href="https://mobile.twitter.com/dan_abramov">Dan Abramov</a>.{' '}
-          I&nbsp;explain with words and code.
+          <a href="https://josegneto.github.io" style={{textDecoration : 'none'}}>José Neto</a>
+          <br></br>Electrical Engineer
+          <br></br>
+          <a
+            href="https://josegneto.github.io"
+            target="_blank"
+            rel="noopener noreferrer"
+
+          >
+            josegneto.github.io
+          </a>
+          
+          <p> Based on{' '}
+            {<a
+              href="https://overreacted.io"
+              target="_blank"
+            >
+              overreacted
+            </a>} by Dan Abramov</p>
         </p>
       </div>
     );

@@ -1,15 +1,18 @@
 body {
-  --pink: rgb(255, 167, 196);
+  --blue: rgb(27, 158, 245);
   background-color: var(--bg);
+}
+h2 {
+  margin-top: 0%;
 }
 
 body.light {
   --bg: #ffffff;
   --bg-secondary: rgb(249, 250, 251);
-  --header: var(--pink);
+  --header: var(--blue);
   --textNormal: #222;
   --textTitle: #222;
-  --textLink: #d23669;
+  --textLink: var(--blue);
   --hr: hsla(0, 0%, 0%, 0.2);
   --inlineCode-bg: rgba(255, 229, 100, 0.2);
   --inlineCode-text: #1a1a1a;
@@ -24,15 +27,18 @@ body.dark {
   --header: #ffffff;
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: #ffffff;
-  --textLink: var(--pink);
+  --textLink: var(--blue);
   --hr: hsla(0, 0%, 100%, 0.2);
   --inlineCode-bg: rgba(115, 124, 153, 0.2);
   --inlineCode-text: #e6e6e6;
   --form-shadow: 0 2px 15px 0 rgba(26, 26, 27, 0.637);
 }
-
+.categories {
+  color: rgba(47, 138, 241, 0.918);
+  font-weight: bold;
+}
 /*
-  RTL layout
+RTL layout
 */
 body:lang(fa) article,
 body:lang(ar) article,
@@ -87,8 +93,13 @@ body:lang(ko) article {
 }
 
 /**
- * Based on copypasta from Remy Bach and Sarah Drasner
- */
+* Based on copypasta from Remy Bach and Sarah Drasner
+*/
+
+/* .deckgo-highlight-code-carbon.deckgo-highlight-code-theme-blackboard.hydrated{
+  margin-top: -40px;
+} */
+
 code[class*='language-'],
 pre[class*='language-'] {
   color: white;
@@ -157,7 +168,7 @@ pre[class*='language-'] ::selection {
 }
 
 .token.comment {
-  color: rgb(128, 147, 147);
+  color: green;
 }
 
 .token.string,
@@ -227,16 +238,6 @@ pre[data-line] {
   border-left: 0.25em solid #ffa7c4;
 }
 
-.gatsby-highlight {
-  margin-bottom: 1.75rem;
-  margin-left: -1.3125rem;
-  margin-right: -1.3125rem;
-  border-radius: 10px;
-  background: #011627;
-  -webkit-overflow-scrolling: touch;
-  overflow: auto;
-}
-
 @media (max-width: 672px) {
   .gatsby-highlight {
     border-radius: 0;
@@ -246,4 +247,57 @@ pre[data-line] {
 .gatsby-highlight pre[class*='language-'] {
   float: left;
   min-width: 100%;
+}
+
+/**
+* If you already use line highlighting
+*/
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*='language-'].line-numbers {
+  padding-left: 2.8em;
+}
+
+/**
+* If you only want to use line numbering
+*/
+
+.gatsby-highlight {
+  background: #011627;
+  border-radius: 0.3em;
+  /*margin: 0.5em 0;*/
+  padding: 1em;
+  overflow: auto;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
+.gatsby-highlight pre[class*='language-'].line-numbers {
+  padding: 0;
+  padding-left: 2.8em;
+  overflow: initial;
+}
+
+.table_row {
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.table_td {
+  width: 65.75pt;
+  border-right-style: solid;
+  border-right-width: 0.75pt;
+  border-left-style: solid;
+  border-left-width: 0.75pt;
+  border-bottom-style: solid;
+  border-bottom-width: 0.75pt;
+  padding-right: 5.03pt;
+  padding-left: 5.03pt;
+  vertical-align: top;
+}
+
+.teste td{
+  border-bottom: none;
 }

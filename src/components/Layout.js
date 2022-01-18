@@ -6,7 +6,9 @@ import Helmet from 'react-helmet';
 import { rhythm, scale } from '../utils/typography';
 import sun from '../assets/sun.png';
 import moon from '../assets/moon.png';
-
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+deckDeckGoHighlightElement();
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class Layout extends React.Component {
   state = {
     theme: null,
@@ -57,7 +59,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'rgb(255, 167, 196)',
+              color: 'rgb(27, 158, 245)',
             }}
             to={'/'}
           >

@@ -3,23 +3,29 @@ import './global.css';
 
 import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
+import { reduce, reduceRight } from 'lodash';
 
 Wordpress2016.overrideThemeStyles = () => ({
   a: {
     color: 'var(--textLink)',
+    textDecoration: 'none!important', 
+    boxShadow: 'none',
   },
   hr: {
     background: 'var(--hr)',
   },
   'a.gatsby-resp-image-link': {
     boxShadow: 'none',
+    textDecoration: 'none',
   },
   // These two are for gatsby-remark-autolink-headers:
   'a.anchor': {
     boxShadow: 'none',
+    textDecoration: 'none',
   },
   'a.anchor svg[aria-hidden="true"]': {
     stroke: 'var(--textLink)',
+    textDecoration: 'none',
   },
   'p code': {
     fontSize: '1rem',

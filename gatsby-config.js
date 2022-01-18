@@ -1,14 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
-    social: {
-      twitter: '@dan_abramov',
-    },
+    title: 'Projects',
+    author: 'José Neto',
+    description: 'Personal blog by José Neto. Electrical Engineer',
+    siteUrl: 'https://josegneto.github.io/blog',
   },
-  pathPrefix: '/',
+  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -17,14 +14,24 @@ module.exports = {
         name: 'pages',
       },
     },
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-code-buttons',
+            options: {
+              tooltipText: `Copy to clipboard`,
+              toasterText: "Copied to clipboard",
+              toasterDuration: 5000,
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              backgroundColor: `none`,
             },
           },
           {
@@ -38,6 +45,7 @@ module.exports = {
             resolve: 'gatsby-remark-prismjs',
             options: {
               inlineCodeMarker: '÷',
+              showLineNumbers: true,
             },
           },
           'gatsby-remark-copy-linked-files',
@@ -129,37 +137,6 @@ module.exports = {
             title: "Dan Abramov's Overreacted Blog RSS Feed",
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-ebook`,
-      options: {
-        filename: 'overreacted-ebook.epub',
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                author
-              }
-            }
-            allMarkdownRemark(
-              sort: { fields: frontmatter___date, order: ASC },
-              filter: { fields: { langKey: { eq: "en" } } }
-            ) {
-              edges {
-                node {
-                  id
-                  fileAbsolutePath
-                  rawMarkdownBody
-                  frontmatter {
-                    title
-                    date
-                  }
-                }
-              }
-            }
-          }`,
       },
     },
     {
