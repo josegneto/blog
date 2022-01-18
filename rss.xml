@@ -1,129 +1,170 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by José Neto. Electrical Engineer]]></description><link>https://josegneto.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Jan 2022 17:06:32 GMT</lastBuildDate><item><title><![CDATA[Line Following]]></title><description><![CDATA[Line Following Differential Robot in Webots]]></description><link>https://josegneto.github.io/blog/line-following/</link><guid isPermaLink="false">https://josegneto.github.io/blog/line-following/</guid><pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by José Neto. Electrical Engineer]]></description><link>https://josegneto.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Jan 2022 16:03:21 GMT</lastBuildDate><item><title><![CDATA[Line Following]]></title><description><![CDATA[Line Following Differential Robot in Webots]]></description><link>https://josegneto.github.io/blog/line-following/</link><guid isPermaLink="false">https://josegneto.github.io/blog/line-following/</guid><pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
 &lt;p&gt;So I guess I’ll say it.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The way &lt;code&gt;npm audit&lt;/code&gt; works is broken. Its rollout as a default after every &lt;code&gt;npm install&lt;/code&gt; was rushed, inconsiderate, and inadequate for the front-end tooling.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The way &lt;code class=&quot;language-text&quot;&gt;npm audit&lt;/code&gt; works is broken. Its rollout as a default after every &lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; was rushed, inconsiderate, and inadequate for the front-end tooling.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Have you heard the story about &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Boy_Who_Cried_Wolf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the boy who cried wolf?&lt;/a&gt; Spoiler alert: the wolf eats the sheep. If we don’t want our sheep to be eaten, we need better tools.&lt;/p&gt;
-&lt;p&gt;As of today, &lt;code&gt;npm audit&lt;/code&gt; is a stain on the entire npm ecosystem. The best time to fix it was before rolling it out as a default. The next best time to fix it is now.&lt;/p&gt;
+&lt;p&gt;As of today, &lt;code class=&quot;language-text&quot;&gt;npm audit&lt;/code&gt; is a stain on the entire npm ecosystem. The best time to fix it was before rolling it out as a default. The next best time to fix it is now.&lt;/p&gt;
 &lt;p&gt;In this post, I will briefly outline how it works, why it’s broken, and what changes I’m hoping to see.&lt;/p&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/line-following/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[npm audit: Broken by Design]]></title><description><![CDATA[Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)]]></description><link>https://josegneto.github.io/blog/npm-audit-broken-by-design/</link><guid isPermaLink="false">https://josegneto.github.io/blog/npm-audit-broken-by-design/</guid><pubDate>Wed, 07 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
-&lt;p&gt;So I guess I’ll say it.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The way &lt;code&gt;npm audit&lt;/code&gt; works is broken. Its rollout as a default after every &lt;code&gt;npm install&lt;/code&gt; was rushed, inconsiderate, and inadequate for the front-end tooling.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Have you heard the story about &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Boy_Who_Cried_Wolf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the boy who cried wolf?&lt;/a&gt; Spoiler alert: the wolf eats the sheep. If we don’t want our sheep to be eaten, we need better tools.&lt;/p&gt;
-&lt;p&gt;As of today, &lt;code&gt;npm audit&lt;/code&gt; is a stain on the entire npm ecosystem. The best time to fix it was before rolling it out as a default. The next best time to fix it is now.&lt;/p&gt;
-&lt;p&gt;In this post, I will briefly outline how it works, why it’s broken, and what changes I’m hoping to see.&lt;/p&gt;
+              </content:encoded></item><item><title><![CDATA[Servo]]></title><description><![CDATA[Controlling a servo robot using an IR remote controller]]></description><link>https://josegneto.github.io/blog/servo/</link><guid isPermaLink="false">https://josegneto.github.io/blog/servo/</guid><pubDate>Mon, 20 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This project was developed during university summer break, after my first course using microcontrollers.&lt;/p&gt;
+&lt;p&gt;It is based on &lt;a href=&quot;https://learn.adafruit.com/using-an-infrared-library/controlling-a-servo-with-ir-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Controlling a Servo with IR&lt;/a&gt; and &lt;a href=&quot;http://www.circuitbasics.com/arduino-ir-remote-receiver-tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;How to Set Up an IR Remote and Receiver on an Arduino&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The objective is to control a Servo motor using an infrared controller.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Note: this article is written with a critical and somewhat snarky tone. I understand it’s super hard to maintain massive projects like Node.js/npm, and that mistakes may take a while to become become apparent. I am frustrated only at the situation, not at the people involved. I kept the snarky tone because the level of my frustration has increased over the years, and I don’t want to pretend that the situation isn’t as dire as it really is. Most of all I am frustrated to see all the people for whom this is the first programming experience, as well as all the people who are blocked from deploying their changes due to irrelevant warnings. I am excited that &lt;a href=&quot;https://twitter.com/bitandbang/status/1412803378279759872&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this issue is being considered&lt;/a&gt; and I will do my best to provide input on the proposed solutions! 💜&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;how-does-npm-audit-work&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-does-npm-audit-work&quot; aria-label=&quot;how does npm audit work permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How does npm audit work?&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;#why-is-npm-audit-broken&quot;&gt;Skip ahead&lt;/a&gt; if you already know how it works.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Your Node.js application has a dependency tree. It might look like this:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;your-app
-  - view-library@1.0.0
-  - design-system@1.0.0
-  - model-layer@1.0.0
-    - database-layer@1.0.0
-      - network-utility@1.0.0&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Most likely, it’s a lot deeper.&lt;/p&gt;
-&lt;p&gt;Now say there’s a vulnerability discovered in &lt;code&gt;network-utility@1.0.0&lt;/code&gt;:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;your-app
-  - view-library@1.0.0
-  - design-system@1.0.0
-  - model-layer@1.0.0
-    - database-layer@1.0.0
-      - network-utility@1.0.0 (Vulnerable!)&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;This gets published in a special registry that &lt;code&gt;npm&lt;/code&gt; will access next time you run &lt;code&gt;npm audit&lt;/code&gt;. Since npm v6+, you’ll learn about this after every &lt;code&gt;npm install&lt;/code&gt;:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;1 vulnerabilities (0 moderate, 1 high)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues (including breaking changes), run:
-  npm audit fix --force&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;You run &lt;code&gt;npm audit fix&lt;/code&gt;, and npm tries to install the latest &lt;code&gt;network-utility@1.0.1&lt;/code&gt; with the fix in it. As long as &lt;code&gt;database-layer&lt;/code&gt; specifies that it depends not on &lt;em&gt;exactly&lt;/em&gt; on &lt;code&gt;network-utility@1.0.0&lt;/code&gt; but some permissible range that includes &lt;code&gt;1.0.1&lt;/code&gt;, the fix “just works” and you get a working application:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;your-app
-  - view-library@1.0.0
-  - design-system@1.0.0
-  - model-layer@1.0.0
-    - database-layer@1.0.0
-      - network-utility@1.0.1 (Fixed!)&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Alternatively, maybe &lt;code&gt;database-layer@1.0.0&lt;/code&gt; depends strictly on &lt;code&gt;network-utility@1.0.0&lt;/code&gt;. In that case, the maintainer of &lt;code&gt;database-layer&lt;/code&gt; needs to release a new version too, which would allow &lt;code&gt;network-utility@1.0.1&lt;/code&gt; instead:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;your-app
-  - view-library@1.0.0
-  - design-system@1.0.0
-  - model-layer@1.0.0
-    - database-layer@1.0.1 (Updated to allow the fix.)
-      - network-utility@1.0.1 (Fixed!)&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Finally, if there is no way to gracefully upgrade the tree, you could try &lt;code&gt;npm audit fix --force&lt;/code&gt;. This is supposed to be used if &lt;code&gt;database-layer&lt;/code&gt; doesn’t accept the new version of &lt;code&gt;network-utility&lt;/code&gt; and &lt;em&gt;also&lt;/em&gt; doesn’t release an update to accept it. So you’re kind of taking matters in your own hands, potentially risking breaking changes. Seems like a reasonable option to have.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This is how &lt;code&gt;npm audit&lt;/code&gt; is supposed to work in theory.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As someone wise said, in theory there is no difference between theory and practice. But in practice there is. And that’s where all the fun starts.&lt;/p&gt;
-&lt;h2 id=&quot;why-is-npm-audit-broken&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-is-npm-audit-broken&quot; aria-label=&quot;why is npm audit broken permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why is npm audit broken?&lt;/h2&gt;
-&lt;p&gt;Let’s see how this works in practice. I’ll use Create React App for my testing.&lt;/p&gt;
-&lt;p&gt;If you’re not familiar with it, it’s an integration facade that combines multiple other tools, including Babel, webpack, TypeScript, ESLint, PostCSS, Terser, and others. Create React App takes your JavaScript source code and converts it into a static HTML+JS+CSS folder. &lt;strong&gt;Notably, it does &lt;em&gt;not&lt;/em&gt; produce a Node.js app.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Let’s create a new project!&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;npx create-react-app myapp&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Immediately upon creating a project, I see this:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;found 5 vulnerabilities (3 moderate, 2 high)
-  run `npm audit fix` to fix them, or `npm audit` for details&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Oh no, that seems bad! My just-created app is already vulnerable!&lt;/p&gt;
-&lt;p&gt;Or so npm tells me.&lt;/p&gt;
-&lt;p&gt;Let’s run &lt;code&gt;npm audit&lt;/code&gt; to see what’s up.&lt;/p&gt;
-&lt;p&gt;### First “vulnerability”&lt;/p&gt;
-&lt;p&gt;Here is the first problem reported by &lt;code&gt;npm audit&lt;/code&gt;:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;┌───────────────┬──────────────────────────────────────────────────────────────┐
-│ Moderate      │ Regular Expression Denial of Service                         │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Package       │ browserslist                                                 │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Patched in    │ &amp;gt;=4.16.5                                                     │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Dependency of │ react-scripts                                                │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Path          │ react-scripts &amp;gt; react-dev-utils &amp;gt; browserslist               │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ More info     │ https://npmjs.com/advisories/1747                            │
-└───────────────┴──────────────────────────────────────────────────────────────┘&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Apparently, &lt;code&gt;browserslist&lt;/code&gt; is vulnerable. What’s that and how is it used? Create React App generates CSS files optimized for the browsers you target. For example, you can say you only target modern browsers in your &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
+&lt;h2 id=&quot;phases&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#phases&quot; aria-label=&quot;phases permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Phases&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Decode the controller&lt;/strong&gt;: obtain the code corresponding to each of the buttons so that the microcontroller knows which one is being pressed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Send instructions to the servo&lt;/strong&gt;, depending on which button is pressed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjust the speed at which the motor will move.&lt;/li&gt;
+&lt;li&gt;Make the motor rotate to positions previously defined.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The work presented will not bring any major difficulties, as both the assembly and the code are easy to follow. Perhaps the decoding part is the most laborious, as we have to register about 28 codes (depending on the controller), which can become repetitive.&lt;/p&gt;
+&lt;h2 id=&quot;material&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#material&quot; aria-label=&quot;material permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Material&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Servo motor&lt;/li&gt;
+&lt;li&gt;Remote controller&lt;/li&gt;
+&lt;li&gt;IR receiver&lt;/li&gt;
+&lt;li&gt;Microcontroller (used: Arduino Uno)&lt;/li&gt;
+&lt;li&gt;Breadboard (mini is enough)&lt;/li&gt;
+&lt;li&gt;Jumper Wires&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;remote-decoding&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#remote-decoding&quot; aria-label=&quot;remote decoding permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Remote Decoding&lt;/h2&gt;
+&lt;p&gt;Start by decoding the remote controller buttons. Each remote has a different set of codes.
+I used the remote below.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 156px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;https://josegneto.github.io/blog/blog/static/35f46b2fcff4c4326da6fe99f45b98d5/680fe/remote.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.89189189189187%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Remote Controller&quot;
+        title=&quot;Remote Controller&quot;
+        src=&quot;https://josegneto.github.io/blog/blog/static/35f46b2fcff4c4326da6fe99f45b98d5/680fe/remote.png&quot;
+        srcset=&quot;/blog/static/35f46b2fcff4c4326da6fe99f45b98d5/12f09/remote.png 148w,
+/blog/static/35f46b2fcff4c4326da6fe99f45b98d5/680fe/remote.png 156w&quot;
+        sizes=&quot;(max-width: 156px) 100vw, 156px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Assembly&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&quot;display: flex; justify-content: center;&quot;&gt;
+  &lt;div style=&quot;width: 250px; 
+  margin: 0 1rem;
+    margin-bottom : 1.5rem;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;https://josegneto.github.io/blog/blog/static/f5f31e27a866ef86c491e6a474381eb6/288ea/decoding_physical_assembly.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB6ctaJVmg/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAECAxESE//aAAgBAQABBQJ1w9tfMnVVLKlM6pH/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAEQEhECIx/9oACAEBAAY/AkRq2PmLsqIP/8QAGxAAAwACAwAAAAAAAAAAAAAAAAEREDFBccH/2gAIAQEAAT8hkQa/wCo0vhvDQ0ElEl0f/9oADAMBAAIAAwAAABBgD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQEBAQEBAQAAAAAAAAAAAAERACFBMVH/2gAIAQEAAT8Q6J77lQTtWzia6ZUAs/dKRMeBh8ExAA8Bv//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;decoding physical assembly&quot; title=&quot;decoding physical assembly&quot; src=&quot;https://josegneto.github.io/blog/blog/static/f5f31e27a866ef86c491e6a474381eb6/1c72d/decoding_physical_assembly.jpg&quot; srcset=&quot;/blog/static/f5f31e27a866ef86c491e6a474381eb6/a80bd/decoding_physical_assembly.jpg 148w,
+/blog/static/f5f31e27a866ef86c491e6a474381eb6/1c91a/decoding_physical_assembly.jpg 295w,
+/blog/static/f5f31e27a866ef86c491e6a474381eb6/1c72d/decoding_physical_assembly.jpg 590w,
+/blog/static/f5f31e27a866ef86c491e6a474381eb6/288ea/decoding_physical_assembly.jpg 841w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;width: 250px; 
+  margin: 0 1rem;
+    margin-bottom : 1.5rem;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 383px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;https://josegneto.github.io/blog/blog/static/d1eb30482b86b5c78851e42a9ed519a5/d0c94/decoding_fritzing_assembly.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 170.27027027027026%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;decoding fritzing assembly&quot; title=&quot;decoding fritzing assembly&quot; src=&quot;https://josegneto.github.io/blog/blog/static/d1eb30482b86b5c78851e42a9ed519a5/d0c94/decoding_fritzing_assembly.png&quot; srcset=&quot;/blog/static/d1eb30482b86b5c78851e42a9ed519a5/12f09/decoding_fritzing_assembly.png 148w,
+/blog/static/d1eb30482b86b5c78851e42a9ed519a5/e4a3f/decoding_fritzing_assembly.png 295w,
+/blog/static/d1eb30482b86b5c78851e42a9ed519a5/d0c94/decoding_fritzing_assembly.png 383w&quot; sizes=&quot;(max-width: 383px) 100vw, 383px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Download the Fritzing assembly sketch (Fritzing): &lt;a href=&quot;https://josegneto.github.io/blog/blog/bd423aefbbd219dfc27ff8128bbb420a/IR_decoder_Sketch.fzz&quot;&gt;💾&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Be careful about the receiver pin, they change depending on its model:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;https://josegneto.github.io/blog/blog/static/c0b88641c3f1e95c1e03629e34e07450/8e1fc/IR_Receivers.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 28.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEDBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB1YMW4H//xAAYEAACAwAAAAAAAAAAAAAAAAAAEwECEv/aAAgBAQABBQJYspGT/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAAECITJBEf/aAAgBAQAGPwK7tLuwWeyf/8QAHRAAAQQCAwAAAAAAAAAAAAAAAQARQVEh0WGB8f/aAAgBAQABPyH0r0n9c62mQE3kcxwv/9oADAMBAAIAAwAAABAIL//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAAICAgMAAAAAAAAAAAAAAAERACFRYZHB8P/aAAgBAQABPxCo3H74ShFSAkO/aGtC3MWmhP/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;IR Receivers&quot;
+        title=&quot;IR Receivers&quot;
+        src=&quot;https://josegneto.github.io/blog/blog/static/c0b88641c3f1e95c1e03629e34e07450/1c72d/IR_Receivers.jpg&quot;
+        srcset=&quot;/blog/static/c0b88641c3f1e95c1e03629e34e07450/a80bd/IR_Receivers.jpg 148w,
+/blog/static/c0b88641c3f1e95c1e03629e34e07450/1c91a/IR_Receivers.jpg 295w,
+/blog/static/c0b88641c3f1e95c1e03629e34e07450/1c72d/IR_Receivers.jpg 590w,
+/blog/static/c0b88641c3f1e95c1e03629e34e07450/a8a14/IR_Receivers.jpg 885w,
+/blog/static/c0b88641c3f1e95c1e03629e34e07450/8e1fc/IR_Receivers.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Below is the code used in the decoding phase. Install the &lt;a href=&quot;https://github.com/Arduino-IRremote/Arduino-IRremote&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IRremote&lt;/a&gt; library before compiling.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://josegneto.github.io/blog/blog/fb76a4e8832eda86dd470d934950c9dc/IR_decoder.ino&quot;&gt;💾 IR_decoder.ino&lt;/a&gt;&lt;/p&gt;
 &lt;div
               class=&quot;gatsby-code-button-container&quot;
-              data-toaster-id=&quot;44052109199888140000&quot;
+              data-toaster-id=&quot;20180176782797976000&quot;
               data-toaster-class=&quot;gatsby-code-button-toaster&quot;
               data-toaster-text-class=&quot;gatsby-code-button-toaster-text&quot;
               data-toaster-text=&quot;Copied to clipboard&quot;
               data-toaster-duration=&quot;5000&quot;
-              onClick=&quot;copyToClipboard(`import { useState } from &apos;react&apos;;
-export default function App() {
-  let [color, setColor] = useState(&apos;red&apos;);
-  return (
-    &lt;div&gt;
-      &lt;input value={color} onChange={(e) =&gt; setColor(e.target.value)} /&gt;
-      &lt;p style={{ color }}&gt;Hello, world!&lt;/p&gt;
-      &lt;ExpensiveTree /&gt;
-    &lt;/div&gt;
-  );
+              onClick=&quot;copyToClipboard(`/* Adapted from Examples -&gt; IRremote -&gt; IRrecvDemo
+by josegneto.github.io */
+
+#include &lt;IRremote.h&gt;
+
+const int RECV_PIN = 7; // Receiver Pin
+IRrecv irrecv(RECV_PIN);
+decode_results results;
+
+void setup()
+{
+  Serial.begin(9600);
+  irrecv.enableIRIn();
+  irrecv.blink13(true);
 }
-function ExpensiveTree() {
-  let now = performance.now();
-  while (performance.now() - now &lt; 100) {
-    // Artificial delay -- do nothing for 100ms
+
+void loop()
+{
+  if (irrecv.decode(&amp;results))
+  {
+    Serial.println(results.value, HEX); 
+    // Prints the HEX code in the Serial Monitor
+    irrecv.resume();
   }
-  return &lt;p&gt;I am a very slow component tree.&lt;/p&gt;;
-}`, `44052109199888140000`)&quot;
+}`, `20180176782797976000`)&quot;
             &gt;
               &lt;div
                 class=&quot;gatsby-code-button&quot;
@@ -132,152 +173,545 @@ function ExpensiveTree() {
                 &lt;svg class=&quot;gatsby-code-button-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path fill=&quot;none&quot; d=&quot;M0 0h24v24H0V0z&quot;/&gt;&lt;path d=&quot;M16 1H2v16h2V3h12V1zm-1 4l6 6v12H6V5h9zm-1 7h5.5L14 6.5V12z&quot;/&gt;&lt;/svg&gt;
               &lt;/div&gt;
             &lt;/div&gt;
-&lt;deckgo-highlight-code language=&quot;jsx&quot; terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;import { useState } from &amp;#39;react&amp;#39;;
-export default function App() {
-  let [color, setColor] = useState(&amp;#39;red&amp;#39;);
-  return (
-    &amp;lt;div&amp;gt;
-      &amp;lt;input value={color} onChange={(e) =&amp;gt; setColor(e.target.value)} /&amp;gt;
-      &amp;lt;p style={{ color }}&amp;gt;Hello, world!&amp;lt;/p&amp;gt;
-      &amp;lt;ExpensiveTree /&amp;gt;
-    &amp;lt;/div&amp;gt;
-  );
-}
-function ExpensiveTree() {
-  let now = performance.now();
-  while (performance.now() - now &amp;lt; 100) {
-    // Artificial delay -- do nothing for 100ms
-  }
-  return &amp;lt;p&amp;gt;I am a very slow component tree.&amp;lt;/p&amp;gt;;
-}&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Then it won’t include outdated flexbox hacks in the output. Since multiple tools rely on the same configuration format for the browsers you target, Create React App uses the shared &lt;code&gt;browserslist&lt;/code&gt; package to parse the configuration file.&lt;/p&gt;
-&lt;p&gt;So what’s the vulnerability here? &lt;a href=&quot;https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;“Regular Expression Denial of Service”&lt;/a&gt; means that there is a regex in &lt;code&gt;browserslist&lt;/code&gt; that, with malicious input, could become very slow. So an attacker can craft a special configuration string that, when passed to &lt;code&gt;browserslist&lt;/code&gt;, could slow it down exponentially. This sounds bad…&lt;/p&gt;
-&lt;p&gt;Wait, what?! Let’s remember how your app works. You have a configuration file &lt;em&gt;on your machine&lt;/em&gt;. You &lt;em&gt;build&lt;/em&gt; your project. You get static HTML+CSS+JS in a folder. You put it on static hosting. There is simply &lt;strong&gt;no way&lt;/strong&gt; for your application user to affect your &lt;code&gt;package.json&lt;/code&gt; configuration. &lt;strong&gt;This doesn’t make any sense.&lt;/strong&gt; If the attacker already has access to your machine and can change your configuration files, you have a much bigger problem than slow regular expressions!&lt;/p&gt;
-&lt;p&gt;Okay, so I guess this “Moderate” “vulnerability” was neither moderate nor a vulnerability in the context of a project. Let’s keep going.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Verdict: this “vulnerability” is absurd in this context.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;second-vulnerability&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#second-vulnerability&quot; aria-label=&quot;second vulnerability permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Second “vulnerability”&lt;/h3&gt;
-&lt;p&gt;Here is the next issue &lt;code&gt;npm audit&lt;/code&gt; has helpfully reported:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;┌───────────────┬──────────────────────────────────────────────────────────────┐
-│ Moderate      │ Regular expression denial of service                         │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Package       │ glob-parent                                                  │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Patched in    │ &amp;gt;=5.1.2                                                      │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Dependency of │ react-scripts                                                │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Path          │ react-scripts &amp;gt; webpack-dev-server &amp;gt; chokidar &amp;gt; glob-parent  │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ More info     │ https://npmjs.com/advisories/1751                            │
-└───────────────┴──────────────────────────────────────────────────────────────┘&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Let’s look at the &lt;code&gt;webpack-dev-server &gt; chokidar &gt; glob-parent&lt;/code&gt; dependency chain. Here, &lt;code&gt;webpack-dev-server&lt;/code&gt; is a &lt;strong&gt;development-only&lt;/strong&gt; server that’s used to quickly serve your app &lt;strong&gt;locally&lt;/strong&gt;. It uses &lt;code&gt;chokidar&lt;/code&gt; to watch your filesystem for changes (such as when you save a file in your editor). And it uses &lt;a href=&quot;https://www.npmjs.com/package/glob-parent&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code&gt;glob-parent&lt;/code&gt;&lt;/a&gt; in order to extract a part of the filesystem path from a filesystem watch pattern.&lt;/p&gt;
-&lt;p&gt;Unfortunately, &lt;code&gt;glob-parent&lt;/code&gt; is vulnerable! If an attacker supplies a specially crafted filepath, it could make this function exponentially slow, which would…&lt;/p&gt;
-&lt;p&gt;Wait, what?! The development server is on your computer. The files are on your computer. The file watcher is using the configuration that &lt;em&gt;you&lt;/em&gt; have specified. None of this logic leaves your computer. If your attacker is sophisticated enough to log into &lt;em&gt;your machine&lt;/em&gt; during local development, the last thing they’ll want to do is to craft special long filepaths to slow down your development. They’ll want to steal your secrets instead. &lt;strong&gt;So this whole threat is absurd.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Looks like this “Moderate” “vulnerability” was neither moderate nor a vulnerability in the context of a project.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Verdict: this “vulnerability” is absurd in this context.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;### Third “vulnerability”&lt;/p&gt;
-&lt;p&gt;Let’s have a look at this one:&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;┌───────────────┬──────────────────────────────────────────────────────────────┐
-│ Moderate      │ Regular expression denial of service                         │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Package       │ glob-parent                                                  │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Patched in    │ &amp;gt;=5.1.2                                                      │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Dependency of │ react-scripts                                                │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Path          │ react-scripts &amp;gt; webpack &amp;gt; watchpack &amp;gt; watchpack-chokidar2 &amp;gt;  │
-│               │ chokidar &amp;gt; glob-parent                                       │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ More info     │ https://npmjs.com/advisories/1751                            │
-└───────────────┴──────────────────────────────────────────────────────────────┘&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;Wait, it’s the same thing as above, but through a different dependency path.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Verdict: this “vulnerability” is absurd in this context.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;fourth-vulnerability&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fourth-vulnerability&quot; aria-label=&quot;fourth vulnerability permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fourth “vulnerability”&lt;/h3&gt;
-&lt;p&gt;Oof, this one looks really bad! &lt;strong&gt;&lt;code&gt;npm audit&lt;/code&gt; has the nerve to show it in red color:&lt;/strong&gt;&lt;/p&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;┌───────────────┬──────────────────────────────────────────────────────────────┐
-│ High          │ Denial of Service                                            │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Package       │ css-what                                                     │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Patched in    │ &amp;gt;=5.0.1                                                      │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Dependency of │ react-scripts                                                │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Path          │ react-scripts &amp;gt; @svgr/webpack &amp;gt; @svgr/plugin-svgo &amp;gt; svgo &amp;gt;   │
-│               │ css-select &amp;gt; css-what                                        │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ More info     │ https://npmjs.com/advisories/1754                            │
-└───────────────┴──────────────────────────────────────────────────────────────┘&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;What is this “high” severity issue? “Denial of service.” I don’t want service to be denied! That would be really bad… Unless…&lt;/p&gt;
-&lt;p&gt;Let’s look at the &lt;a href=&quot;https://www.npmjs.com/advisories/1754&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;issue&lt;/a&gt;. Apparently &lt;a href=&quot;https://www.npmjs.com/package/css-what&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code&gt;css-what&lt;/code&gt;&lt;/a&gt;, which is a parser for CSS selectors, can be slow with specially crafted input. This parser is used by a plugin that generates React components from SVG files.&lt;/p&gt;
-&lt;p&gt;So what this means is that if the attacker takes control of my development machine or my source code, they put a special SVG file that will have a specially crafted CSS selector in it, which will make my build slow. That checks out…&lt;/p&gt;
-&lt;p&gt;Wait, what?! If the attacker can modify my app’s source code, they’ll probably just put a bitcoin miner in it. Why would they add SVG files into my app, unless you can mine bitcoins with SVG? Again, this doesn’t make &lt;em&gt;any&lt;/em&gt; sense.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Verdict: this “vulnerability” is absurd in this context.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;So much for the “high” severity.&lt;/p&gt;
-&lt;h3 id=&quot;fifth-vulnerability&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fifth-vulnerability&quot; aria-label=&quot;fifth vulnerability permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fifth “vulnerability”&lt;/h3&gt;
-&lt;deckgo-highlight-code  terminal=&quot;carbon&quot; theme=&quot;blackboard&quot;  &gt;
-          &lt;code slot=&quot;code&quot;&gt;┌───────────────┬──────────────────────────────────────────────────────────────┐
-│ High          │ Denial of Service                                            │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Package       │ css-what                                                     │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Patched in    │ &amp;gt;=5.0.1                                                      │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Dependency of │ react-scripts                                                │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ Path          │ react-scripts &amp;gt; optimize-css-assets-webpack-plugin &amp;gt; cssnano │
-│               │ &amp;gt; cssnano-preset-default &amp;gt; postcss-svgo &amp;gt; svgo &amp;gt; css-select  │
-│               │ &amp;gt; css-what                                                   │
-├───────────────┼──────────────────────────────────────────────────────────────┤
-│ More info     │ https://npmjs.com/advisories/1754                            │
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;arduino&quot;&gt;&lt;pre style=&quot;counter-reset: linenumber NaN&quot; class=&quot;language-arduino line-numbers&quot;&gt;&lt;code class=&quot;language-arduino&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/* Adapted from Examples -&gt; IRremote -&gt; IRrecvDemo
+by josegneto.github.io */&lt;/span&gt;
 
-└───────────────┴──────────────────────────────────────────────────────────────┘&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;
-&lt;p&gt;This is just the same exact thing as above.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Verdict: this “vulnerability” is absurd in this context.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;shall-we-keep-going&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#shall-we-keep-going&quot; aria-label=&quot;shall we keep going permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Shall we keep going?&lt;/h3&gt;
-&lt;p&gt;So far the boy has cried wolf five times. Two of them are duplicates. The rest are absurd non-issues in the context of how these dependencies are used.&lt;/p&gt;
-&lt;p&gt;Five false alarms wouldn’t be too bad.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Unfortunately, there are hundreds.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Here are a &lt;a href=&quot;https://github.com/facebook/create-react-app/issues/11053&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;few&lt;/a&gt; &lt;a href=&quot;https://github.com/facebook/create-react-app/issues/11092&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;typical&lt;/a&gt; threads, but there are many more &lt;a href=&quot;https://github.com/facebook/create-react-app/issues/11174&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;linked from here&lt;/a&gt;:&lt;/p&gt;
-&lt;img src=&quot;https://imgur.com/ABDK4Ky.png&quot; alt=&quot;Screenshot of many GH threads&quot;&gt;
-&lt;p&gt;&lt;strong&gt;I’ve spent several hours looking through every &lt;code&gt;npm audit&lt;/code&gt; issue reported to us over the last several months, and they all appear to be false positives in the context of a build tool dependency like Create React App.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Of course, they are possible to fix. We could relax some of the top-level dependencies to not be exact (leading to bugs in patches slipping in more often). We could make more releases just to stay ahead of this security theater.&lt;/p&gt;
-&lt;p&gt;But this is inadequate. Imagine if your tests failed 99% of the times for bogus reasons! This wastes person-decades of effort and makes everyone miserable:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;It makes beginners miserable&lt;/strong&gt; because they run into this as their first programming experience in the Node.js ecosystem. As if installing Node.js/npm was not confusing enough (good luck if you added &lt;code&gt;sudo&lt;/code&gt; somewhere because a tutorial told you), this is what they’re greeted with when they try examples online or even when they create a project. A beginner doesn’t know what a RegExp &lt;em&gt;is&lt;/em&gt;. Of course they don’t have the know-how to be able to tell whether a RegExp DDoS or prototype pollution is something to worry about when they’re using a build tool to produce a static HTML+CSS+JS site.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;It makes experienced app developers miserable&lt;/strong&gt; because they have to either waste time doing obviously unnecessary work, or fight with their security departments trying to explain how &lt;code&gt;npm audit&lt;/code&gt; is a broken tool unsuitable for real security audits &lt;em&gt;by design&lt;/em&gt;. Yeah, somehow it was made a default in this state.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;It makes maintainers miserable&lt;/strong&gt; because instead of working on bugfixes and improvements, they have to pull in bogus vulnerability fixes that can’t possibly affect their project because otherwise their users are frustrated, scared, or both.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Someday, it will make our users miserable&lt;/strong&gt; because we have trained an entire generation of developers to either not understand the warnings due to being overwhelmed, or to simply &lt;em&gt;ignore&lt;/em&gt; them because they always show up but the experienced developers (correctly) tell them there is no real issue in each case.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It doesn’t help that &lt;code&gt;npm audit fix&lt;/code&gt; (which the tool suggests using) is buggy. I ran &lt;code&gt;npm audit fix --force&lt;/code&gt; today and it &lt;strong&gt;downgraded&lt;/strong&gt; the main dependency to a three-year-old version with actual &lt;em&gt;real&lt;/em&gt; vulnerabilities. Thanks, npm, great job.&lt;/p&gt;
-&lt;h2 id=&quot;what-next&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-next&quot; aria-label=&quot;what next permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What next?&lt;/h2&gt;
-&lt;p&gt;I don’t know how to solve this. But I didn’t add this system in the first place, so I’m probably not the best person to solve it. All I know is it’s horribly broken.&lt;/p&gt;
-&lt;p&gt;There are a few possible solutions that I have seen.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Move dependency to &lt;code&gt;devDependencies&lt;/code&gt; if it doesn’t run in production.&lt;/strong&gt; This offers a way to specify that some dependency isn’t used in production code paths, so there is no risk associated with it. However, this solution is flawed:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;npm audit&lt;/code&gt; still warns for development dependencies by default. You have to &lt;em&gt;know&lt;/em&gt; to run &lt;code&gt;npm audit --production&lt;/code&gt; to not see the warnings from development dependencies. People who know to do that probably already don’t trust it anyway. This also doesn’t help beginners or people working at companies whose security departments want to audit everything.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;npm install&lt;/code&gt; still uses information from plain &lt;code&gt;npm audit&lt;/code&gt;, so you will effectively still see all the false positives every time you install something.&lt;/li&gt;
-&lt;li&gt;As any security professional will tell you, development dependencies actually &lt;em&gt;are&lt;/em&gt; an attack vector, and perhaps one of the most dangerous ones because it’s so hard to detect and the code runs with high trust assumptions. &lt;strong&gt;This is why the situation is so bad in particular: any real issue gets buried below dozens of non-issues that &lt;code&gt;npm audit&lt;/code&gt; is training people and maintainers to ignore.&lt;/strong&gt; It’s only a matter of time until this happens.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Inline all dependencies during publish.&lt;/strong&gt; This is what I’m increasingly seeing packages similar to Create React App do. For example, both &lt;a href=&quot;https://unpkg.com/browse/vite@2.4.1/dist/node/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Vite&lt;/a&gt; and &lt;a href=&quot;https://unpkg.com/browse/next@11.0.1/dist/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Next.js&lt;/a&gt; simply bundle their dependencies directly in the package instead of relying on the npm &lt;code&gt;node_modules&lt;/code&gt; mechanism. From a maintainer’s point of view, &lt;a href=&quot;https://github.com/vitejs/vite/blob/main/.github/contributing.md#notes-on-dependencies&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the upsides are clear&lt;/a&gt;: you get faster boot time, smaller downloads, and — as a nice bonus — no bogus vulnerability reports from your users. It’s a neat way to game the system but I’m worried about the incentives npm is creating for the ecosystem. Inlining dependencies kind of goes against the whole point of npm.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Offer some way to counter-claim vulnerability reports.&lt;/strong&gt; The problem is not entirely unknown to Node.js and npm, of course. Different people have worked on different suggestions to fix it. For example, there is a &lt;a href=&quot;https://github.com/npm/rfcs/pull/18&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;proposal&lt;/a&gt; for a way to manually resolve audit warnings so that they don’t display again. However, this still places the burden on app users, which don’t necessarily have context on what vulnerabilities deeper in the tree are real or bogus. I also have a &lt;a href=&quot;https://twitter.com/dan_abramov/status/1412380714012594178&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;proposal&lt;/a&gt;: I need a way to mark for my users that a certain vulnerability can’t possibly affect them. If you don’t trust my judgement, why are you running my code on your computer? I’d be happy to discuss other options too.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The root of the issue is that npm added a default behavior that, in many situations, leads to a 99%+ false positive rate, creates an incredibly confusing first programming experience, makes people fight with security departments, makes maintainers never want to deal with Node.js ecosystem ever again, and at some point will lead to actually bad vulnerabilities slipping in unnnoticed.&lt;/p&gt;
-&lt;p&gt;Something has to be done.&lt;/p&gt;
-&lt;p&gt;In the meantime, I am planning to close all GitHub issues from &lt;code&gt;npm audit&lt;/code&gt; that I see going forward that don’t correspond to a &lt;em&gt;real&lt;/em&gt; vulnerability that can affect the project. I invite other maintainers to adopt the same policy. This will create frustration for our users, but the core of the issue is with npm. I am done with this security theater. Node.js/npm have all the power to fix the problem. I am in contact with them, and I hope to see this problem prioritized.&lt;/p&gt;
-&lt;p&gt;Today, &lt;code&gt;npm audit&lt;/code&gt; is broken by design.&lt;/p&gt;
-&lt;p&gt;Beginners, experienced developers, maintainers, security departments, and, most importantly — our users — deserve better.&lt;/p&gt;
-                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/npm-audit-broken-by-design/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;IRremote.h&gt;&lt;/span&gt;&lt;/span&gt;
+
+const &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; RECV_PIN &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Receiver Pin&lt;/span&gt;
+IRrecv &lt;span class=&quot;token function&quot;&gt;irrecv&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;RECV_PIN&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+decode_results results&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token builtin&quot;&gt;Serial&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  irrecv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;enableIRIn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  irrecv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;blink13&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;irrecv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;results&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token builtin&quot;&gt;Serial&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;results&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; HEX&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+    &lt;span class=&quot;token comment&quot;&gt;// Prints the HEX code in the Serial Monitor&lt;/span&gt;
+    irrecv&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;resume&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot; style=&quot;white-space: normal; width: auto; left: 0;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interpretation of the results&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When a button is pressed, the correspoding HEX code is printed in the IDE’s Serial Monitor. In the example below, buttons 1-4 were pressed.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 561px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;https://josegneto.github.io/blog/blog/static/26651fea3c11e3a0ab28567125044d83/410f3/IR_Decoder.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.2972972972973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAvUlEQVQoz62O0W6CQBBF9/9/rzFptVBBQGqFYY0uOyzc27CND0000dKTnIe5k7kZkx47SmfZtMJWbPTSe3oN7HV4SOeV9eGLZX2gSdKM1lqGEKiqUe/9U843IsK6/qR5Wb3GYWYCiD86M06gyXYVnXMxuC6e5XqnQ6BxOv4Kl3wYC8/9sKjoViF++pYxd+gQYJwG/hdhnGjSvEJelGjEou3uK90Jx0aw3iR4T7fIiwpvmwS7co+i2sf8IyvwDWrvwIToBX8uAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;IR Decoder&quot;
+        title=&quot;IR Decoder&quot;
+        src=&quot;https://josegneto.github.io/blog/blog/static/26651fea3c11e3a0ab28567125044d83/410f3/IR_Decoder.png&quot;
+        srcset=&quot;/blog/static/26651fea3c11e3a0ab28567125044d83/12f09/IR_Decoder.png 148w,
+/blog/static/26651fea3c11e3a0ab28567125044d83/e4a3f/IR_Decoder.png 295w,
+/blog/static/26651fea3c11e3a0ab28567125044d83/410f3/IR_Decoder.png 561w&quot;
+        sizes=&quot;(max-width: 561px) 100vw, 561px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The following table shows the codes for each of the buttons:&lt;/p&gt;
+&lt;table class =&quot;teste&quot; align=&quot;center&quot; style=&quot;border: 0.75pt solid #FFF; border-collapse: collapse;&quot; cellspacing=&quot;0&quot;
+            cellpadding=&quot;0&quot;&gt;
+            &lt;tbody&gt;
+               &lt;tr style=&quot;height: 27.25pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;                     
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;                     
+                  &lt;/td&gt;
+                  &lt;td
+                     class = &quot;table_td&quot;&gt;                     
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     class = &quot;table_td&quot;&gt;                    
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     class = &quot;table_td&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     class = &quot;table_td&quot;&gt;                     
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;                     
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr style=&quot;height: 17pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;CH-&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE48B7&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;CH&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE58A7&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;CH+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE7887&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr style=&quot;height: 17pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;⏪&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE807F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;⏩&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE40BF&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;⏯️&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEC03F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr style=&quot;height: 17pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;Vol -&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE20DF&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;Vol +&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEA05F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;EQ&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE609F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr style=&quot;height: 17pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;0&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEE01F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;100+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE10EF&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;200+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE906F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr style=&quot;height: 17pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;1&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE50AF&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;2&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FED827&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;3&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEF807&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr style=&quot;height: 17pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;4&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE30CF&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEB04F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;6&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE708F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr style=&quot;height: 17pt;&quot;&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;7&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE00FF&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;8&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEF00F&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
+                              style=&quot;font-family: Calibri;&quot;&gt;9&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+                  &lt;td
+                     style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
+                     &lt;p class = &quot;table_row&quot;&gt;&lt;span
+                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE9867&lt;/span&gt;&lt;/p&gt;
+                  &lt;/td&gt;
+               &lt;/tr&gt;
+            &lt;/tbody&gt;
+         &lt;/table&gt;
+&lt;p&gt;The process is similar with any other controller. I tried it with the TV controller and the result was similar, only the button codes are different (as expected).&lt;/p&gt;
+&lt;p&gt;The difference between controllers appears in the next step, as there are different protocols depending on their manufacturer. The most common protocol in remotes that come with Arduino beginner kits is NEC, while the TV remote I tried uses SAMSUNG.&lt;/p&gt;
+&lt;h2 id=&quot;controlling-the-servo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#controlling-the-servo&quot; aria-label=&quot;controlling the servo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Controlling the servo&lt;/h2&gt;
+&lt;p&gt;The next step is to give commands to the servo: rotate certain degrees, defined by the user, or permanently rotate at a speed (number of degrees) indicated by us.&lt;/p&gt;
+&lt;p&gt;For this, we have to adapt the previous assembly to accommodate the servo and give it instructions.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Assembly&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&quot;display: flex; justify-content: center;&quot;&gt;
+  &lt;div style=&quot;width: 250px; 
+  margin: 0 1rem;
+    margin-bottom : 1.5rem;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;https://josegneto.github.io/blog/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/d5e84/servo_physical_assembly.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 61.48648648648649%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGmWzlGAf/EABsQAAEEAwAAAAAAAAAAAAAAAAABAgMREiFC/9oACAEBAAEFApLUkvCF6uYujk//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAAiEg/9oACAEBAAY/AoMXH//EABoQAQADAAMAAAAAAAAAAAAAAAEAESEQMXH/2gAIAQEAAT8hXaTyMtTkto25lZBUK68f/9oADAMBAAIAAwAAABD3D//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAQADAQEAAAAAAAAAAAAAAAEAESExQf/aAAgBAQABPxAQKdEvUXIoxLbghhYPkGlq8eRAroxUez//2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;servo physical assembly&quot; title=&quot;servo physical assembly&quot; src=&quot;https://josegneto.github.io/blog/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/1c72d/servo_physical_assembly.jpg&quot; srcset=&quot;/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/a80bd/servo_physical_assembly.jpg 148w,
+/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/1c91a/servo_physical_assembly.jpg 295w,
+/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/1c72d/servo_physical_assembly.jpg 590w,
+/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/a8a14/servo_physical_assembly.jpg 885w,
+/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/fbd2c/servo_physical_assembly.jpg 1180w,
+/blog/static/7020bd48a2bf5ce6abbc40cd97f26d69/d5e84/servo_physical_assembly.jpg 3896w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;width: 250px; 
+  margin: 0 1rem;
+    margin-bottom : 1.5rem;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;https://josegneto.github.io/blog/blog/static/2ca2b4d97a858205d368759629a307d0/4d4a2/servo_fritzing_assembly.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 68.24324324324324%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAACmFAAAphQGPVf7hAAAEC0lEQVQ4y3WSeUwTBhjFH+C45aYtVwVKS2mhtIBAKYdxCyhhoA6mgDJjgGK55BiXWxDrwbGx4UasMAa6BWFmAmZkoZoNMSqgxQIDHPuDZZEwyZgzI7SjhW+BLIv/+P78XvLLl/ce8J8EAgF4PB5EAQHw8PNDtliMbE9PlMpk2z4Robi0DG4MlsjVxXUJAKOisnr7Pj/Qiml7YCabAbwK5HK5EAcEgMnhoFgsxllvbzRKpXAHsEzkTEQ7a5qUEcHSkP6G5mYuETmoRyet6HYpNG8C84cBrKysoK2tDampqdsfBvH55p4cjnO6RMLMDwz0igcYl8vLQ+6p1Qv31Ld1w+rv/xqbGPlDq9W8mJzQ0MLTnw4O/6rDdOtJy/l3YQZvH19TRe5Rs7RDiaZ8vj9ChUIXCIUWixyO11OJhK0FnGdrayVP1OoVzZCaxoYGaehWD6n7euhOfw+pezv6usuSI39TMJiTJSJv8PkCFCmOIyf3PcAjC9ESoQv27TYjJ2f7rXzmzikxt7rK0mi1S480E3RfM268+XBwc/TBqGF0dJTu3h2ptN1px8piAWN1b1tCdaW97vIl5Z2W5rqansIQwCHKHiCQB8txcX+S+ZPFP7eCd5ydnno+Namln6dnNocnh+nx1LhxfnaO5mdnjgOw3uph/H2pBeLi4nSy6GhKTUn8ndTJ7J5cj+CH+Vw3smYyqDBlB/1wA5929R6r7+6/UdGi6iv+WDVY0fHFVFV352JJc/uPR+ua8kwApyohMFYhs4BIJCoRBUtaE2LDC2+mswWded4RL6/zuUvYbd6o6kKDqjOsobP3ZWh5vcHtSN4qu+Qjkp65uBF4usmw61Qj+ZQ09IXZwOlxsg0eyP0sIRQEgC8IQkpsCKiNtb0rIr7zHiKTrrZf8E3v1w0D3w1Q6JnWTfe8Dyj2k+7NrGvXKLq5c0N4/ipFKK8svBUjY18qeAcjuRwrSMRiU3FImFl6UrgpwR3Phh3MDGuubv/oPVlEtoznywm+UY3nZ7i158i/+rSRe/YiedXWb1qWf7ZhXf45CeUVLwQSie+FzCioT/ha/D/s9XVH6PV20OnsYDS6gAi4ThUgG8BDXjfmqVCSbVW7npVZatiVnGXgHjy2zjuQSeyM/GVpUiKfCoD7J3kOrwCZ0OsZ0OkYMBqZyMwJNXXnREOWEM/0jYz5OzCrgE60fEkxZUqSyosoSlFG4fJS2l+tXKvOiIt8pmCyHhUFsvE6cWR7IQkKRKw0wspp74FG8SnlV4JaVUdATmWHVF501Se76hY3u+pbSf6HTe7+Yve23D1YK2O9lgeupxuE/jyEhYXBGcC+Q2lIa2xH/OEMlNTkIdwaLuFOb9j779zBCOb7OcIqCKojQpN/Afd/rtRyhvv9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;servo fritzing assembly&quot; title=&quot;servo fritzing assembly&quot; src=&quot;https://josegneto.github.io/blog/blog/static/2ca2b4d97a858205d368759629a307d0/fcda8/servo_fritzing_assembly.png&quot; srcset=&quot;/blog/static/2ca2b4d97a858205d368759629a307d0/12f09/servo_fritzing_assembly.png 148w,
+/blog/static/2ca2b4d97a858205d368759629a307d0/e4a3f/servo_fritzing_assembly.png 295w,
+/blog/static/2ca2b4d97a858205d368759629a307d0/fcda8/servo_fritzing_assembly.png 590w,
+/blog/static/2ca2b4d97a858205d368759629a307d0/4d4a2/servo_fritzing_assembly.png 606w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Download the Fritzing assembly sketch (Fritzing): &lt;a href=&quot;https://josegneto.github.io/blog/blog/6e1840b2b93629fec78f52b24eaaa5c0/servo_IR_Sketch.fzz&quot;&gt;💾&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If the image is not clear, the assembling is identical to the previous one.&lt;/p&gt;
+&lt;p&gt;We just need to connect the servo. Mine has three cables: brown, red and orange. Brown must be connected to GND (Ground), red to VCC (+5V) and orange to pin (9) defined further down in the code.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Below is the code used in the servo controlling phase. Install the &lt;a href=&quot;https://github.com/cyborg5/IRLib2&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IRLib2&lt;/a&gt; library before compiling.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://josegneto.github.io/blog/blog/c12f0b6366fbf634603efa34d996683c/IR_servo.ino&quot;&gt;💾 IR_servo.ino&lt;/a&gt;&lt;/p&gt;
+&lt;div
+              class=&quot;gatsby-code-button-container&quot;
+              data-toaster-id=&quot;95991203712933600000&quot;
+              data-toaster-class=&quot;gatsby-code-button-toaster&quot;
+              data-toaster-text-class=&quot;gatsby-code-button-toaster-text&quot;
+              data-toaster-text=&quot;Copied to clipboard&quot;
+              data-toaster-duration=&quot;5000&quot;
+              onClick=&quot;copyToClipboard(`/*  Adapted from Examples -&gt; IRLib2 -&gt; servo 
+by josegneto.github.io */
+
+#include &lt;IRLibAll.h&gt;
+#include &lt;Servo.h&gt;
+
+// You will have to set these values depending on the protocol
+// and remote codes that you are using
+
+#define MY_PROTOCOL NEC
+#define CH-           0x1FE48B7
+#define CH            0x1FE58A7
+#define CH+           0x1FE7887
+#define FAST_BACKWARD 0x1FE807F     // Move the servo counterclockwise
+#define FAST_FORWARD  0x1FE40BF     // Move the servo clockwise
+#define PLAY_PAUSE    0x1FEC03F     // Center the servo
+#define VOLDEC        0x1FE20DF     // Decrease the speed
+#define VOLINC        0x1FEA05F     // Increase the speed
+#define EQ            0x1FE609F
+#define BUTTON_0      0x1FEE01F     // Rotates key * 20 degrees at a time
+#define BUTTON_1      0x1FE50AF     // User defined position
+#define BUTTON_2      0x1FED827
+#define BUTTON_3      0x1FEF807
+#define BUTTON_4      0x1FE30CF
+#define BUTTON_5      0x1FEB04F
+#define BUTTON_6      0x1FE708F
+#define BUTTON_7      0x1FE00FF
+#define BUTTON_8      0x1FEF00F
+#define BUTTON_9      0x1FE9867
+
+IRrecv myReceiver(11); // Receiver pin
+IRdecode myDecoder;
+
+Servo myServo;     // Create servo object to control a servo
+int16_t pos;       // Variable to store the servo position
+int16_t Speed;     // Degrees to move when a left/right button is pressed
+uint32_t Previous; // Handles NEC repeat codes
+
+void setup()
+{
+  myServo.attach(9);       // Attaches the servo on pin 9 to its object
+  pos = 90;                // Start at midpoint 90 degrees
+  Speed = 3;               // Moves 3 degrees when left/right is pushed
+  myServo.write(pos);      // Set initial position
+  myReceiver.enableIRIn(); // Start the receiver
+}
+
+void loop() 
+{ 
+    if (myReceiver.getResults()) {
+       myDecoder.decode();
+       if(myDecoder.protocolNum==MY_PROTOCOL) {
+         if(myDecoder.value==0xFFFFFFFF)
+           myDecoder.value=Previous;
+         switch(myDecoder.value) {
+            case FAST_BACKWARD: pos=min(180,pos+Speed); break;
+            case FAST_FORWARD:  pos=max(0,pos-Speed); break;
+            case PLAY_PAUSE:    pos=90; break;
+            case VOLDEC:        Speed=min(10, Speed+1); break;
+            case VOLINC:        Speed=max(1, Speed-1); break;
+            case BUTTON_0:      pos=0*20; break;
+            case BUTTON_1:      pos=1*20; break;
+            case BUTTON_2:      pos=2*20; break;
+            case BUTTON_3:      pos=3*20; break;
+            case BUTTON_4:      pos=4*20; break;
+            case BUTTON_5:      pos=5*20; break;
+            case BUTTON_6:      pos=6*20; break;
+            case BUTTON_7:      pos=7*20; break;
+            case BUTTON_8:      pos=8*20; break;
+            case BUTTON_9:      pos=9*20; break;
+         }
+         myServo.write(pos); // Servo goes to position in variable &apos;pos&apos; 
+         Previous=myDecoder.value;
+       }
+       myReceiver.enableIRIn();
+    }
+}`, `95991203712933600000`)&quot;
+            &gt;
+              &lt;div
+                class=&quot;gatsby-code-button&quot;
+                data-tooltip=&quot;Copy to clipboard&quot;
+              &gt;
+                &lt;svg class=&quot;gatsby-code-button-icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot;&gt;&lt;path fill=&quot;none&quot; d=&quot;M0 0h24v24H0V0z&quot;/&gt;&lt;path d=&quot;M16 1H2v16h2V3h12V1zm-1 4l6 6v12H6V5h9zm-1 7h5.5L14 6.5V12z&quot;/&gt;&lt;/svg&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;arduino&quot;&gt;&lt;pre style=&quot;counter-reset: linenumber NaN&quot; class=&quot;language-arduino line-numbers&quot;&gt;&lt;code class=&quot;language-arduino&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/*  Adapted from Examples -&gt; IRLib2 -&gt; servo 
+by josegneto.github.io */&lt;/span&gt;
+
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;IRLibAll.h&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;Servo.h&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// You will have to set these values depending on the protocol&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// and remote codes that you are using&lt;/span&gt;
+
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;MY_PROTOCOL&lt;/span&gt; &lt;span class=&quot;token expression&quot;&gt;NEC&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;CH&lt;/span&gt;&lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;           &lt;span class=&quot;token number&quot;&gt;0x1FE48B7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;CH&lt;/span&gt;            &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE58A7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;CH&lt;/span&gt;&lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;           &lt;span class=&quot;token number&quot;&gt;0x1FE7887&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;FAST_BACKWARD&lt;/span&gt; &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE807F&lt;/span&gt;     &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Move the servo counterclockwise&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;FAST_FORWARD&lt;/span&gt;  &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE40BF&lt;/span&gt;     &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Move the servo clockwise&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;PLAY_PAUSE&lt;/span&gt;    &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FEC03F&lt;/span&gt;     &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Center the servo&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;VOLDEC&lt;/span&gt;        &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE20DF&lt;/span&gt;     &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Decrease the speed&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;VOLINC&lt;/span&gt;        &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FEA05F&lt;/span&gt;     &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Increase the speed&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;EQ&lt;/span&gt;            &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE609F&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_0&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FEE01F&lt;/span&gt;     &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Rotates key * 20 degrees at a time&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_1&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE50AF&lt;/span&gt;     &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// User defined position&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_2&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FED827&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_3&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FEF807&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_4&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE30CF&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_5&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FEB04F&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_6&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE708F&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_7&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE00FF&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_8&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FEF00F&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;token macro-name&quot;&gt;BUTTON_9&lt;/span&gt;      &lt;span class=&quot;token expression&quot;&gt;&lt;span class=&quot;token number&quot;&gt;0x1FE9867&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+
+IRrecv &lt;span class=&quot;token function&quot;&gt;myReceiver&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Receiver pin&lt;/span&gt;
+IRdecode myDecoder&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token builtin&quot;&gt;Servo&lt;/span&gt; myServo&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;// Create servo object to control a servo&lt;/span&gt;
+int16_t pos&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;// Variable to store the servo position&lt;/span&gt;
+int16_t Speed&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;// Degrees to move when a left/right button is pressed&lt;/span&gt;
+uint32_t Previous&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Handles NEC repeat codes&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  myServo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;attach&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;// Attaches the servo on pin 9 to its object&lt;/span&gt;
+  pos &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;                &lt;span class=&quot;token comment&quot;&gt;// Start at midpoint 90 degrees&lt;/span&gt;
+  Speed &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;               &lt;span class=&quot;token comment&quot;&gt;// Moves 3 degrees when left/right is pushed&lt;/span&gt;
+  myServo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pos&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;// Set initial position&lt;/span&gt;
+  myReceiver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;enableIRIn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Start the receiver&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; 
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;myReceiver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getResults&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+       myDecoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;myDecoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;protocolNum&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;MY_PROTOCOL&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;myDecoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0xFFFFFFFF&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+           myDecoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Previous&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;myDecoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; FAST_BACKWARD&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;180&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;pos&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;Speed&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; FAST_FORWARD&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;  pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;pos&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Speed&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; PLAY_PAUSE&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;    pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; VOLDEC&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;        Speed&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Speed&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; VOLINC&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;        Speed&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Speed&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_0&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_1&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_2&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_3&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_4&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_5&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_6&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_7&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_8&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; BUTTON_9&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;      pos&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+         myServo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pos&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Servo goes to position in variable &apos;pos&apos; &lt;/span&gt;
+         Previous&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;myDecoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+       myReceiver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;enableIRIn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot; style=&quot;white-space: normal; width: auto; left: 0;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Demo&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the demonstration below the servo is moving when the buttons ⏪ and ⏩ are pressed.&lt;/p&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;
+      &lt;img src=&quot;https://josegneto.github.io/blog/blog/8223ae858820efbc74291f71c80c1de7/demo.gif&quot; alt=&quot;Demo&quot;&gt;
+   &lt;/div&gt;
+                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/servo/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
               </content:encoded></item></channel></rss>

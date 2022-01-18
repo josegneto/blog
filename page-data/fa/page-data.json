@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-blog-index-js",
     "path": "/fa/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Blog","description":"Personal blog by José Neto. Electrical Engineer"}},"allMarkdownRemark":{"edges":[]}},"pageContext":{"langKey":"fa"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Projects","description":"Personal blog by José Neto. Electrical Engineer"}},"allMarkdownRemark":{"edges":[]}},"pageContext":{"langKey":"fa"}},
     "staticQueryHashes": ["708209134"]}

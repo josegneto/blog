@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-thanks-js",
     "path": "/thanks/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Blog"}}},"pageContext":{"slug":"/thanks/","langKey":"en"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Projects"}}},"pageContext":{"slug":"/thanks/","langKey":"en"}},
     "staticQueryHashes": []}
