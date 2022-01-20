@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by José Neto. Electrical Engineer]]></description><link>https://josegneto.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 20 Jan 2022 13:24:20 GMT</lastBuildDate><item><title><![CDATA[Line Following]]></title><description><![CDATA[Line Following Differential Robot in Webots]]></description><link>https://josegneto.github.io/blog/line-following/</link><guid isPermaLink="false">https://josegneto.github.io/blog/line-following/</guid><pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by José Neto. Electrical Engineer]]></description><link>https://josegneto.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 20 Jan 2022 13:46:15 GMT</lastBuildDate><item><title><![CDATA[Line Following]]></title><description><![CDATA[Line Following Differential Robot in Webots]]></description><link>https://josegneto.github.io/blog/line-following/</link><guid isPermaLink="false">https://josegneto.github.io/blog/line-following/</guid><pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
 &lt;p&gt;So I guess I’ll say it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The way &lt;code class=&quot;language-text&quot;&gt;npm audit&lt;/code&gt; works is broken. Its rollout as a default after every &lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; was rushed, inconsiderate, and inadequate for the front-end tooling.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Have you heard the story about &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Boy_Who_Cried_Wolf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the boy who cried wolf?&lt;/a&gt; Spoiler alert: the wolf eats the sheep. If we don’t want our sheep to be eaten, we need better tools.&lt;/p&gt;
@@ -658,9 +658,8 @@ speedfactor &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; speedfac
 &lt;p&gt;In the demonstration below I reached the fourth level, pressed the wrong button and lost.&lt;/p&gt;
 &lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 75%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div style=&quot;text-align: center&quot;&gt; &lt;iframe src=&quot;https://www.youtube.com/embed/zRZKroVg4ZI&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
                 &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/memorygame/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
-              </content:encoded></item><item><title><![CDATA[Servo]]></title><description><![CDATA[Controlling a servo robot using an IR remote controller]]></description><link>https://josegneto.github.io/blog/servo/</link><guid isPermaLink="false">https://josegneto.github.io/blog/servo/</guid><pubDate>Fri, 03 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This project was developed during university summer break, after my first course using microcontrollers.&lt;/p&gt;
+              </content:encoded></item><item><title><![CDATA[Servo]]></title><description><![CDATA[Controlling a servo motor using an IR remote controller]]></description><link>https://josegneto.github.io/blog/servo/</link><guid isPermaLink="false">https://josegneto.github.io/blog/servo/</guid><pubDate>Fri, 03 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The objective is to control a servo motor using an infrared controller.&lt;/p&gt;
 &lt;p&gt;It is based on &lt;a href=&quot;https://learn.adafruit.com/using-an-infrared-library/controlling-a-servo-with-ir-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Controlling a Servo with IR&lt;/a&gt; and &lt;a href=&quot;http://www.circuitbasics.com/arduino-ir-remote-receiver-tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;How to Set Up an IR Remote and Receiver on an Arduino&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The objective is to control a Servo motor using an infrared controller.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;phases&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#phases&quot; aria-label=&quot;phases permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Phases&lt;/h2&gt;
 &lt;ol&gt;
@@ -781,7 +780,7 @@ I used the remote below.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://josegneto.github.io/blog/blog/f9d31574b622b4f0da7cf34e7b3bb0a1/IR_decoder.ino&quot;&gt;💾 IR_decoder.ino&lt;/a&gt;&lt;/p&gt;
 &lt;div
               class=&quot;gatsby-code-button-container&quot;
-              data-toaster-id=&quot;55481209001615220000&quot;
+              data-toaster-id=&quot;25754998606004740000&quot;
               data-toaster-class=&quot;gatsby-code-button-toaster&quot;
               data-toaster-text-class=&quot;gatsby-code-button-toaster-text&quot;
               data-toaster-text=&quot;Copied to clipboard&quot;
@@ -810,7 +809,7 @@ void loop()
     // Prints the HEX code in the Serial Monitor
     irrecv.resume();
   }
-}`, `55481209001615220000`)&quot;
+}`, `25754998606004740000`)&quot;
             &gt;
               &lt;div
                 class=&quot;gatsby-code-button&quot;
@@ -1177,7 +1176,7 @@ decode_results results&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span
 &lt;p&gt;&lt;a href=&quot;https://josegneto.github.io/blog/blog/c12f0b6366fbf634603efa34d996683c/IR_servo.ino&quot;&gt;💾 IR_servo.ino&lt;/a&gt;&lt;/p&gt;
 &lt;div
               class=&quot;gatsby-code-button-container&quot;
-              data-toaster-id=&quot;97756407940304490000&quot;
+              data-toaster-id=&quot;68337236155936590000&quot;
               data-toaster-class=&quot;gatsby-code-button-toaster&quot;
               data-toaster-text-class=&quot;gatsby-code-button-toaster-text&quot;
               data-toaster-text=&quot;Copied to clipboard&quot;
@@ -1258,7 +1257,7 @@ void loop()
        }
        myReceiver.enableIRIn();
     }
-}`, `97756407940304490000`)&quot;
+}`, `68337236155936590000`)&quot;
             &gt;
               &lt;div
                 class=&quot;gatsby-code-button&quot;
