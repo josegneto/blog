@@ -1,10 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by José Neto. Electrical Engineer]]></description><link>https://josegneto.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 20 Jan 2022 13:46:15 GMT</lastBuildDate><item><title><![CDATA[Line Following]]></title><description><![CDATA[Line Following Differential Robot in Webots]]></description><link>https://josegneto.github.io/blog/line-following/</link><guid isPermaLink="false">https://josegneto.github.io/blog/line-following/</guid><pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Security is important. Nobody wants to be the person advocating for less security. So nobody wants to say it. But somebody has to say it.&lt;/p&gt;
-&lt;p&gt;So I guess I’ll say it.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The way &lt;code class=&quot;language-text&quot;&gt;npm audit&lt;/code&gt; works is broken. Its rollout as a default after every &lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; was rushed, inconsiderate, and inadequate for the front-end tooling.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Have you heard the story about &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Boy_Who_Cried_Wolf&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;the boy who cried wolf?&lt;/a&gt; Spoiler alert: the wolf eats the sheep. If we don’t want our sheep to be eaten, we need better tools.&lt;/p&gt;
-&lt;p&gt;As of today, &lt;code class=&quot;language-text&quot;&gt;npm audit&lt;/code&gt; is a stain on the entire npm ecosystem. The best time to fix it was before rolling it out as a default. The next best time to fix it is now.&lt;/p&gt;
-&lt;p&gt;In this post, I will briefly outline how it works, why it’s broken, and what changes I’m hoping to see.&lt;/p&gt;
-                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/line-following/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dan Abramov's Overreacted Blog RSS Feed]]></title><description><![CDATA[Personal blog by José Neto. Electrical Engineer]]></description><link>https://josegneto.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Feb 2022 20:08:49 GMT</lastBuildDate><item><title><![CDATA[CheckMates]]></title><description><![CDATA[Chess in Java]]></description><link>https://josegneto.github.io/blog/checkmates/</link><guid isPermaLink="false">https://josegneto.github.io/blog/checkmates/</guid><pubDate>Sun, 10 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The &lt;em&gt;CheckMates&lt;/em&gt; project was developed in the context of &lt;em&gt;Programming Laboratories&lt;/em&gt;, a 4th year course in FEUP’s MIEEC. I worked with André Aragão, André Silva and José Pedro, who I hope are doing great in their careers.&lt;/p&gt;
+&lt;p&gt;Disclaimer: the product has a some bugs, but the game is functional.~&lt;/p&gt;
+&lt;p&gt;The following image depicts a timed game, a feature of the app.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.21621621621621%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADkElEQVQ4y1XPfUzUBRzH8d/Wxh9tFg9GrSaKIUmApnCFeHc/7g55EMgR4h3HQwQCMx6OZw+Ig7v7Icg9hEIokRKrZceylLQplQj4MMi2FoEERZgra8Bmpa0MeTduba7PX699//js8xV+N5mYr6njF7PEnKWZaamVa/VNjEkOrtje4GOLk357F33OY3S1HOWtjvdwtL2L2fkO1u7TGLtOYXizn/zusxT0DiAsyWTcCQrhp9AwvnkugqEwBUPaHI7HpNAQpqLnlTIqNbvZt0OHqaCOGEUqKdpStPsk/FVZ+L1UjU+amYf0Eh4FhxAWVWrGRBWD0XGMKKO5FLUTFufp6monTgzn/tI90nUppGtTYPlvnvb3o93exA8TX/DkE75sVr/IrpxiovT5rClyINxQqeiJiaMjIYl+MZoxVQKKDQFYJDPXx78ieGMgp0728YHrBMFBzzA1OU5dTTXRKiVzszOk1TgJ1FXin/UavsWHEa6pVGQkJpGanEynqGFMHou1qBBrk5VDTju1xiocrc04bC1ur9wki5mG+lo6DzuJLbXxeHYrq/La8DYcQVgUo7gcqWBA1DAsVzMij2H51wUam5rw9l7N0v1lYuLiSUhMcvuRRz2x2R3MfPc9Hh4erN+5l/X5DjxzWvExdCL8oxS5G/4CtyKUXJdruKJOxEsQqDGZuH37NwRB4Pz5Ac6cOev2nbt/Ul5egd/adSwvL/PygV580y145znwWVn4l1JkXhbBbKTI19vVDCvjON19HJPVSnp6Bi5XH0XFJZQYSnnf1UeaPh2rJHGspwedVsfzWTWsyWnFM9f2oHBBFsHcf4VDilimL1+lQZKQyWRMTE6SlqYnIzPT7S1bw2huOciFwYuEhoQQnFLCujz7/wvdC7eJjMs1XNUkul8zmhpYyYqHhi/x6ecX3F5JaVk5nl4+bufaTvCY3vzg5XtiFH/IIvg5UmRiu4bhqHhujI5ilqyEh21lZnoKnTYVvU7LzLdTbN4USktLM0MXB9kYGEBQciH++Q689tpYXXoEYVau4Kg6mtfjEzi5TWRUHou93MB+YzkVr+ZiaailrspAbaWBpsZajJUGLPX7aWk0UlNRQkR2Lb6ZB3g4+yCrCjsQbqbuwbVHy9v6DD7bncaXqVlE+j2Fta6K8ZFzBG/w59xHLj750MWzAWv5cXYGu1TPrh1yFm7dpKy9jy3FbYRWd7GpoZd/Aa5dbNGSkaWaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Demo&quot;
+        title=&quot;Demo&quot;
+        src=&quot;https://josegneto.github.io/blog/blog/static/09be9e4d683f4cc14edb5890ea2c33d8/fcda8/game.png&quot;
+        srcset=&quot;/blog/static/09be9e4d683f4cc14edb5890ea2c33d8/12f09/game.png 148w,
+/blog/static/09be9e4d683f4cc14edb5890ea2c33d8/e4a3f/game.png 295w,
+/blog/static/09be9e4d683f4cc14edb5890ea2c33d8/fcda8/game.png 590w,
+/blog/static/09be9e4d683f4cc14edb5890ea2c33d8/efc66/game.png 885w,
+/blog/static/09be9e4d683f4cc14edb5890ea2c33d8/21335/game.png 1082w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;product-backlog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#product-backlog&quot; aria-label=&quot;product backlog permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Product Backlog&lt;/h2&gt;
+&lt;p&gt;The server is currently down, as it needed to be connected to a PostgresSQL database hosted by FEUP’s services, which I can’t access after concluding my studies. 🤡&lt;/p&gt;
+&lt;table class =&quot;backlog&quot;&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;&lt;span style=&quot;color: #4472c4;&quot;&gt;As a...&lt;/span&gt;&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;&lt;span style=&quot;color: #4472c4;&quot;&gt;I want to be able to...&lt;/span&gt;&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;&lt;span style=&quot;color: #4472c4;&quot;&gt;So that...&lt;/span&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Unregistered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Create an account&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can start playing and &lt;br&gt;keep track of my future games&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Login into my account&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can have access to multiple features (play/watch games)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Access my account management&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can access the games history, account settings, etc.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Access my account settings&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can change my password, email, etc.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Manage friends list&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can add/remove, invite to a game, etc.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Invite friends to play&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can have fun/practice with my friends&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Record and consult recorded games&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can learn from past mistakes&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Update app color scheme&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can tailor the user interface to my own taste&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Practice with preset game states (position of certain pieces, etc.)&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can get experience in specific moments of the game&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Registered&lt;br&gt;User&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Play timed games&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can get more competitive experience&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Administrator&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;See a list of all users&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can monitor the state of the application (server load, etc.)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Administrator&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Ban user for inappropriate behaviour&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can keep a good environment between the users&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Administrator&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;Manage user accounts (reset password, etc.)&lt;/td&gt;
+    &lt;td class = &quot;table_td&quot;&gt;I can manage user&apos;s settings&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;installation-manual&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#installation-manual&quot; aria-label=&quot;installation manual permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Installation Manual&lt;/h2&gt;
+&lt;a href=&quot;./download/Installation_manual.pdf&quot;&gt;
+         &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 141.89189189189187%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACG0lEQVRIx71Uy47aQBD0x2Y/J9coh9yQcssxEkRsBEeCQWtAgMRDvLSAeGP8AGxXVLM7rO14TNjV7khjt2fa1dU91aMFQYDwkN98h/eiNhTrATRpmKaJ0+kkNnzfvwCGgf2TDVhrYXvnc2JwAeh5Hj7d3SGTyaDb7aLdbmM2m4WcfdDd+/EZh5/f8WgGcG0L52fQMLAmo+n3v2DoZTwYBgzjAY1GA71eTwQT7Pj4+gWPv//gWz/A2bFgOw5s244CRmrg+8LBdV04joPj8fi0/rwH24XnODB9WRb/Up5/asiNpCGc5Q8vq8l+sobx4sYPIwgBP60j2U8yVEkmbcYlI4emon5tqPy0eEROnuzhcMBut8NqtRIa5fdisYBlWcKO60/amkrx1WoVhUIBuVwO+Xweuq4jm82iWCyi2Wwq2UYYMvpms8F2uxU25UMt1ut1DIdDLJdLISsypA9942wjgGw9gkgdMnX+NBqN0O/3BSDXqE/pJ9s1NWUORh4MBpdWrNVqaLVaGI/Hoqb/lXLYJhOmTTbsWU7aXIuzSmSoiijB2Emyr1NlkwQmncnIMAxxKEy5VCq99HfsvlQCxhnwdAlWqVTEwaSBKQHDPxCwXC6L2el03g643+9Fx/AtT/dmwLTCX+v1qwxVt8zNKaddYzfJ5l0Ar9UqbS+VIe9C9u58Psd0OsVkMsF6vX59yrJ3OSkbXhjhTvmQlP8CetmReAfRVmIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Installation_manual&quot; title=&quot;Installation_manual&quot; src=&quot;https://josegneto.github.io/blog/blog/static/1582de0b23fb0e5b188326beb50d0266/fcda8/Installation_manual.png&quot; srcset=&quot;/blog/static/1582de0b23fb0e5b188326beb50d0266/12f09/Installation_manual.png 148w,
+/blog/static/1582de0b23fb0e5b188326beb50d0266/e4a3f/Installation_manual.png 295w,
+/blog/static/1582de0b23fb0e5b188326beb50d0266/fcda8/Installation_manual.png 590w,
+/blog/static/1582de0b23fb0e5b188326beb50d0266/efc66/Installation_manual.png 885w,
+/blog/static/1582de0b23fb0e5b188326beb50d0266/36c33/Installation_manual.png 946w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;
+  &lt;/a&gt;
+&lt;embed src=&quot;./download/Installation_manual.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;600px&quot; /&gt;
+&lt;p&gt;Consult the Installation Manual: &lt;a href=&quot;./download/Installation_manual.pdf&quot;&gt;💾&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;users-manual&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#users-manual&quot; aria-label=&quot;users manual permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;User’s Manual&lt;/h2&gt;
+&lt;a href=&quot;./download/Users_manual.pdf&quot;&gt;
+         &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 137.16216216216216%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAIAAADzvTiPAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABm0lEQVQ4y72UzUrDQBDHfdO+jXfxDbx5LxT1KNS2lC39CKkhjaXdS1ZoSHc3s9+RZiVqjLYK+jssIZn/zGR2Zs7Kdzjn6vMUzrw1Y0xrXZaltbZh4SB3gvpPDb8HcZ7nnU6n2+0+RtFyuSSE+DQOR2nt9Tm9v33mVkKhjWmKgfPh3U0wm87n8yAIFosFxtgHMZyXlxfhw/LqyZSyYLwAgA9ij1JKCCGlFEIopV5ztrYEYZQCd/g7T1NsTy5SM+1f0y52n/jLyHUQY0yWZfsKQgillDFWGxyJrJQaDAaj0Wg2m/V6vX6/v1qtWjvvTQwAjDFeIYRIkiQMwzRNd7sdAPj3jDEpZbvYZ+hdYIyTJInjmBDiZYwxSmm7uCbLsvV6HUXRvCIMw+12WxTFSQVzzkkp/YOt0Fr7qTheMD9AqkJrXbfq8Xv2vjnnCKEgCIbDIULo85weaZI4jqfTKUIIY/zVhvhOPJlMxuPxb8S0Is9z317/NVWNm/vfyK1j9PeR0zTFGKcVm81mv9//QOw3KQAUxWHXmo/ruha/APOkK6ycjfB8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Users_manual&quot; title=&quot;Users_manual&quot; src=&quot;https://josegneto.github.io/blog/blog/static/492ff2128fb1418c4b6be945739456d5/fcda8/Users_manual.png&quot; srcset=&quot;/blog/static/492ff2128fb1418c4b6be945739456d5/12f09/Users_manual.png 148w,
+/blog/static/492ff2128fb1418c4b6be945739456d5/e4a3f/Users_manual.png 295w,
+/blog/static/492ff2128fb1418c4b6be945739456d5/fcda8/Users_manual.png 590w,
+/blog/static/492ff2128fb1418c4b6be945739456d5/efc66/Users_manual.png 885w,
+/blog/static/492ff2128fb1418c4b6be945739456d5/4b2cc/Users_manual.png 1013w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;
+  &lt;/a&gt;
+&lt;p&gt;Consult the User’s Manual: &lt;a href=&quot;./download/Users_manual.pdf&quot;&gt;💾&lt;/a&gt;&lt;/p&gt;
+                &lt;div style=&quot;margin-top=55px; font-style: italic;&quot;&gt;(This is an article posted to my blog at overreacted.io. You can read it online by &lt;a href=&quot;https://josegneto.github.io/blog/checkmates/&quot;&gt;clicking here&lt;/a&gt;.)&lt;/div&gt;
               </content:encoded></item><item><title><![CDATA[Memory Game]]></title><description><![CDATA[Memory game using an Arduino, LEDs, buttons and an annoying buzzer]]></description><link>https://josegneto.github.io/blog/memorygame/</link><guid isPermaLink="false">https://josegneto.github.io/blog/memorygame/</guid><pubDate>Mon, 20 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This project will consist of a game in which the microcontroller will generate a random sequence that we have to memorize and repeat.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ex: An LED lights up and we have to press the button associated with it. Then that same led and another will light up and we have to press the two buttons in the correct order. And so on.&lt;/p&gt;
@@ -780,7 +902,7 @@ I used the remote below.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://josegneto.github.io/blog/blog/f9d31574b622b4f0da7cf34e7b3bb0a1/IR_decoder.ino&quot;&gt;💾 IR_decoder.ino&lt;/a&gt;&lt;/p&gt;
 &lt;div
               class=&quot;gatsby-code-button-container&quot;
-              data-toaster-id=&quot;25754998606004740000&quot;
+              data-toaster-id=&quot;73699122812883575000&quot;
               data-toaster-class=&quot;gatsby-code-button-toaster&quot;
               data-toaster-text-class=&quot;gatsby-code-button-toaster-text&quot;
               data-toaster-text=&quot;Copied to clipboard&quot;
@@ -809,7 +931,7 @@ void loop()
     // Prints the HEX code in the Serial Monitor
     irrecv.resume();
   }
-}`, `25754998606004740000`)&quot;
+}`, `73699122812883575000`)&quot;
             &gt;
               &lt;div
                 class=&quot;gatsby-code-button&quot;
@@ -885,64 +1007,64 @@ decode_results results&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span
                   &lt;td
                      style=&quot;width: 65.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;                     
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;                     
+                              style=&quot; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;                     
                   &lt;/td&gt;
                   &lt;td
                      class = &quot;table_td&quot;&gt;                     
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      class = &quot;table_td&quot;&gt;                    
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      class = &quot;table_td&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      class = &quot;table_td&quot;&gt;                     
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot; color: #4472c4;&quot;&gt;Bot&amp;atilde;o&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;                     
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot; color: #4472c4;&quot;&gt;C&amp;oacute;digo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
                &lt;tr style=&quot;height: 17pt;&quot;&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;CH-&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;CH-&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE48B7&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE48B7&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;CH&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;CH&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE58A7&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE58A7&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;CH+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;CH+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE7887&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE7887&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
                &lt;tr style=&quot;height: 17pt;&quot;&gt;
@@ -953,7 +1075,7 @@ decode_results results&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE807F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE807F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
@@ -962,7 +1084,7 @@ decode_results results&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE40BF&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE40BF&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
@@ -971,167 +1093,167 @@ decode_results results&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEC03F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FEC03F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
                &lt;tr style=&quot;height: 17pt;&quot;&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;Vol -&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;Vol -&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE20DF&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE20DF&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;Vol +&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;Vol +&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEA05F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FEA05F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;EQ&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;EQ&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE609F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE609F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
                &lt;tr style=&quot;height: 17pt;&quot;&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;0&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;0&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEE01F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FEE01F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;100+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;100+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE10EF&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE10EF&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;200+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;200+&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE906F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE906F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
                &lt;tr style=&quot;height: 17pt;&quot;&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;1&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;1&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE50AF&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE50AF&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;2&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;2&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FED827&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FED827&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;3&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;3&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEF807&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FEF807&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
                &lt;tr style=&quot;height: 17pt;&quot;&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;4&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;4&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE30CF&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE30CF&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;5&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEB04F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FEB04F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;6&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;6&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE708F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE708F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
                &lt;tr style=&quot;height: 17pt;&quot;&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;7&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;7&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE00FF&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE00FF&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;8&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;8&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FEF00F&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FEF00F&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;strong&gt;&lt;span
-                              style=&quot;font-family: Calibri;&quot;&gt;9&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+                              style=&quot;&quot;&gt;9&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
                   &lt;/td&gt;
                   &lt;td
                      style=&quot;width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;&quot;&gt;
                      &lt;p class = &quot;table_row&quot;&gt;&lt;span
-                           style=&quot;font-family: Calibri;&quot;&gt;0x1FE9867&lt;/span&gt;&lt;/p&gt;
+                           style=&quot;&quot;&gt;0x1FE9867&lt;/span&gt;&lt;/p&gt;
                   &lt;/td&gt;
                &lt;/tr&gt;
             &lt;/tbody&gt;
@@ -1176,7 +1298,7 @@ decode_results results&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span
 &lt;p&gt;&lt;a href=&quot;https://josegneto.github.io/blog/blog/c12f0b6366fbf634603efa34d996683c/IR_servo.ino&quot;&gt;💾 IR_servo.ino&lt;/a&gt;&lt;/p&gt;
 &lt;div
               class=&quot;gatsby-code-button-container&quot;
-              data-toaster-id=&quot;68337236155936590000&quot;
+              data-toaster-id=&quot;16511144640169406000&quot;
               data-toaster-class=&quot;gatsby-code-button-toaster&quot;
               data-toaster-text-class=&quot;gatsby-code-button-toaster-text&quot;
               data-toaster-text=&quot;Copied to clipboard&quot;
@@ -1257,7 +1379,7 @@ void loop()
        }
        myReceiver.enableIRIn();
     }
-}`, `68337236155936590000`)&quot;
+}`, `16511144640169406000`)&quot;
             &gt;
               &lt;div
                 class=&quot;gatsby-code-button&quot;
