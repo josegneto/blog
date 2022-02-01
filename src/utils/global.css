@@ -1,3 +1,7 @@
+*{
+  box-sizing: initial;
+}
+
 body {
   --blue: rgb(27, 158, 245);
   background-color: var(--bg);
@@ -282,11 +286,10 @@ pre[data-line] {
   margin-top: 0pt;
   margin-bottom: 0pt;
   text-align: center;
-  font-size: 12pt;
 }
 
 .table_td {
-  width: 65.75pt;
+  font-size: 12pt;
   border-right-style: solid;
   border-right-width: 0.75pt;
   border-left-style: solid;
@@ -301,3 +304,22 @@ pre[data-line] {
 .teste td{
   border-bottom: none;
 }
+
+/* .backlog{
+  border-style: solid; 
+  border-width: 0.75pt; 
+  padding-right: 5.03pt; 
+  padding-left: 5.03pt; 
+} */
+
+.backlog td{
+  border-style: solid; 
+  border-width: 0.75pt; 
+  border-bottom: solid;
+  border-bottom-width: 0.75pt;
+}
+
+.backlog td:first-child{
+  padding-left:5.03pt;
+}
+

@@ -1,17 +1,15 @@
 ---
 title: 'Servo'
-date: '2018-08-20'
+date: '2018-08-03'
 categories: ["Arduino"]
 languages: ["C"]
-spoiler: "Controlling a servo robot using an IR remote controller"
+spoiler: "Controlling a servo motor using an IR remote controller"
 
 ---
 
-This project was developed during university summer break, after my first course using microcontrollers. 
+The objective is to control a servo motor using an infrared controller.
 
 It is based on [Controlling a Servo with IR](https://learn.adafruit.com/using-an-infrared-library/controlling-a-servo-with-ir-1) and [How to Set Up an IR Remote and Receiver on an Arduino](http://www.circuitbasics.com/arduino-ir-remote-receiver-tutorial/).
-
-The objective is to control a Servo motor using an infrared controller.
 
 ---
 ## Phases
@@ -51,11 +49,11 @@ I used the remote below.
   <div style = "width: 250px; 
   margin: 0 1rem;
     margin-bottom : 1.5rem;">
-      <img style = "display: inline-block" src = "./images/decoding_fritzing_assembly.png">
+      <img style = "display: inline-block" src = "./images/decoding_fritzing_assembly.svg">
   </div>
 </div>
 
-Download the Fritzing assembly sketch (Fritzing): [💾](./download/IR_decoder_Sketch.fzz)
+Download the Fritzing assembly sketch: [💾](./download/IR_decoder_Sketch.fzz)
 
 Be careful about the receiver pin, they change depending on its model: 
 
@@ -108,64 +106,64 @@ The following table shows the codes for each of the buttons:
                   <td
                      style="width: 65.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">                     
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri; color: #4472c4;">Bot&atilde;o</span></strong></p>                     
+                              style=" color: #4472c4;">Bot&atilde;o</span></strong></p>                     
                   </td>
                   <td
                      class = "table_td">                     
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri; color: #4472c4;">C&oacute;digo</span></strong></p>
+                              style=" color: #4472c4;">C&oacute;digo</span></strong></p>
                   </td>
                   <td
                      class = "table_td">                    
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri; color: #4472c4;">Bot&atilde;o</span></strong></p>
+                              style=" color: #4472c4;">Bot&atilde;o</span></strong></p>
                   </td>
                   <td
                      class = "table_td">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri; color: #4472c4;">C&oacute;digo</span></strong></p>
+                              style=" color: #4472c4;">C&oacute;digo</span></strong></p>
                   </td>
                   <td
                      class = "table_td">                     
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri; color: #4472c4;">Bot&atilde;o</span></strong></p>
+                              style=" color: #4472c4;">Bot&atilde;o</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">                     
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri; color: #4472c4;">C&oacute;digo</span></strong></p>
+                              style=" color: #4472c4;">C&oacute;digo</span></strong></p>
                   </td>
                </tr>
                <tr style="height: 17pt;">
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">CH-</span></strong></p>
+                              style="">CH-</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE48B7</span></p>
+                           style="">0x1FE48B7</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">CH</span></strong></p>
+                              style="">CH</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE58A7</span></p>
+                           style="">0x1FE58A7</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">CH+</span></strong></p>
+                              style="">CH+</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE7887</span></p>
+                           style="">0x1FE7887</span></p>
                   </td>
                </tr>
                <tr style="height: 17pt;">
@@ -176,7 +174,7 @@ The following table shows the codes for each of the buttons:
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE807F</span></p>
+                           style="">0x1FE807F</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
@@ -185,7 +183,7 @@ The following table shows the codes for each of the buttons:
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE40BF</span></p>
+                           style="">0x1FE40BF</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
@@ -194,167 +192,167 @@ The following table shows the codes for each of the buttons:
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FEC03F</span></p>
+                           style="">0x1FEC03F</span></p>
                   </td>
                </tr>
                <tr style="height: 17pt;">
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">Vol -</span></strong></p>
+                              style="">Vol -</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE20DF</span></p>
+                           style="">0x1FE20DF</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">Vol +</span></strong></p>
+                              style="">Vol +</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FEA05F</span></p>
+                           style="">0x1FEA05F</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">EQ</span></strong></p>
+                              style="">EQ</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE609F</span></p>
+                           style="">0x1FE609F</span></p>
                   </td>
                </tr>
                <tr style="height: 17pt;">
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">0</span></strong></p>
+                              style="">0</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FEE01F</span></p>
+                           style="">0x1FEE01F</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">100+</span></strong></p>
+                              style="">100+</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE10EF</span></p>
+                           style="">0x1FE10EF</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">200+</span></strong></p>
+                              style="">200+</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE906F</span></p>
+                           style="">0x1FE906F</span></p>
                   </td>
                </tr>
                <tr style="height: 17pt;">
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">1</span></strong></p>
+                              style="">1</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE50AF</span></p>
+                           style="">0x1FE50AF</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">2</span></strong></p>
+                              style="">2</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FED827</span></p>
+                           style="">0x1FED827</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">3</span></strong></p>
+                              style="">3</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FEF807</span></p>
+                           style="">0x1FEF807</span></p>
                   </td>
                </tr>
                <tr style="height: 17pt;">
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">4</span></strong></p>
+                              style="">4</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE30CF</span></p>
+                           style="">0x1FE30CF</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">5</span></strong></p>
+                              style="">5</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FEB04F</span></p>
+                           style="">0x1FEB04F</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-style: solid; border-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">6</span></strong></p>
+                              style="">6</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; border-bottom-style: solid; border-bottom-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE708F</span></p>
+                           style="">0x1FE708F</span></p>
                   </td>
                </tr>
                <tr style="height: 17pt;">
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">7</span></strong></p>
+                              style="">7</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE00FF</span></p>
+                           style="">0x1FE00FF</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">8</span></strong></p>
+                              style="">8</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FEF00F</span></p>
+                           style="">0x1FEF00F</span></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-right-style: solid; border-right-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><strong><span
-                              style="font-family: Calibri;">9</span></strong></p>
+                              style="">9</span></strong></p>
                   </td>
                   <td
                      style="width: 65.75pt; border-top-style: solid; border-top-width: 0.75pt; border-left-style: solid; border-left-width: 0.75pt; padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top;">
                      <p class = "table_row"><span
-                           style="font-family: Calibri;">0x1FE9867</span></p>
+                           style="">0x1FE9867</span></p>
                   </td>
                </tr>
             </tbody>
@@ -381,11 +379,11 @@ For this, we have to adapt the previous assembly to accommodate the servo and gi
   <div style = "width: 250px; 
   margin: 0 1rem;
     margin-bottom : 1.5rem;">
-      <img style = "display: inline-block" src = "./images/servo_fritzing_assembly.png">
+      <img style = "display: inline-block" src = "./images/servo_fritzing_assembly.svg">
   </div>
 </div>
 
-Download the Fritzing assembly sketch (Fritzing): [💾](./download/servo_IR_Sketch.fzz)
+Download the Fritzing assembly sketch: [💾](./download/IR_servo_Sketch.fzz)
 
 If the image is not clear, the assembling is identical to the previous one.
 
@@ -480,5 +478,5 @@ void loop()
 In the demonstration below the servo is moving when the buttons ⏪ and ⏩ are pressed. 
 
    <div style="text-align: center">
-      <img src="./images/demo.gif" alt="Demo" />
+      <img src="./images/demo_servo.gif" alt="Demo" />
    </div>
