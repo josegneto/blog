@@ -96,12 +96,12 @@ The server is currently down, as it needed to be connected to a PostgresSQL data
 
 ## Installation Manual
 
-<embed src="https://drive.google.com/file/d/1icu16oQUSDcUA4dq_-V_AJAoUWbngcT-/view?usp=sharing" width="500" height="375">
+<embed src="https://drive.google.com/file/d/1icu16oQUSDcUA4dq_-V_AJAoUWbngcT-/preview" width="500" height="375">
 
 
 ## User's Manual
 
-<embed src="https://drive.google.com/file/d/1Ck7yEJBbKM51XKU2_040n_sjRbvh0fZG/view?usp=sharing" width="500" height="375">
+<embed src="https://drive.google.com/file/d/1Ck7yEJBbKM51XKU2_040n_sjRbvh0fZG/preview" width="500" height="375">
 
 
 
